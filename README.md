@@ -1,12 +1,14 @@
 # GameAndLevelDesign
 
-Progetto per il corso di Game and Level Design - Università degli Studi di Milano - Magistrale di Informatica
+Game and Level Design Project - Università degli Studi di Milano - Magistrale di Informatica
 
-Nome gruppo: Rigmarole
+Group name: Rigmarole
 
-Membri gruppo: Giorgio Liggio, Alessio Quercia, Andrea Salamone
+Group members: Giorgio Liggio, Alessio Quercia, Andrea Salamone
 
 Team leader: Giorgio Liggio
 
-Titolo livello: None (alla fine)
+Level title: None (We'll give it at the end of the project, I suppose)
+
+
 
