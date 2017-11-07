@@ -1,4 +1,4 @@
-## Game and Level Design Project - Università degli Studi di Milano - Magistrale di Informatica
+﻿## Game and Level Design Project - Università degli Studi di Milano - Magistrale di Informatica
 
 **Group name:** *Rigmarole*
 
@@ -15,7 +15,7 @@ The following entries are planned milestones for the project development.
 ### Milestone 1 - 07/11/2017
 - [x] Game story (temporary)
 - [x] World diagram (temporary)
-- [ ] Goal outline (1<sup>st</sup> release)
+- [x] Goal outline (1<sup>st</sup> release)
 - [x] Data Organization Document (v.0.1)
 
 ### Milestone 2 - [to be added]
