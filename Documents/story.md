@@ -1,4 +1,4 @@
-While roaming in the spacetime, Clara and Ashildr:
+While roaming in the spacetime, Clara and Ashildr
 
 - must deal with the TARDIS not properly working.
 
@@ -21,3 +21,11 @@ After being escorted inside the city, Clara and Ashildr decide to help the local
 The new information reveals there are no multiple plants, though one single organism capable of deploy smaller independents parts that can be eventually reabsorbed. Its nature is plant-like and behave accordingly, although moving as fast as any human or animal, and capable of absorbing nearby objects to build up a harder structure and so fight other creatures (e.g. rock golems, earth minions, ...). Also, the bulb produces toxins that make the sky cloudy, hence the plant is somehow sensitive to strong light sources, maybe UV rays can be mortal to it.
 
 Sharing such information with the people, it's time to plan the strike back.
+
+The aim of our heroins is to get rid of the vegetation purging all the surface; to do so, they must seek and defeat the surface bulbs of the plant, which are responsible of secreting the toxins in the atmosphere. Being the alien entity sort of sentient, it will try to defend itself in any way, so they all must be ready to fight if needed.
+
+Once the skies are clear, it's time to defeat the core. It is located in the middle of a crater, surrounded by a thick forest in order to be hidden.
+
+Eventually Clara and Ashildr, together with some other local companions, accomplish their mission by defeating the guardians of each toxic bulb and destroying the core bulb of the plant, which represents the alien itself.
+
+Once the planet is safe, the two girls are accaimed by the local people and told to keep staying with them. After taking part to the celebrations, they bid farewell everybody especially their adventure companions, then leave again towards the unknown.
