@@ -13,9 +13,9 @@ This repository is intended to centralize and coordinate development of a Doctor
 The following entries are planned milestones for the project development.
 
 ### Milestone 1 - 07/11/2017
-- [ ] Game story (temporary)
-- [ ] World diagram (temporary)
+- [x] Game story (temporary)
+- [x] World diagram (temporary)
 - [ ] Goal outline (1<sup>st</sup> release)
-- [ ] Data Organization Document (v.0.1)
+- [x] Data Organization Document (v.0.1)
 
 ### Milestone 2 - [to be added]
