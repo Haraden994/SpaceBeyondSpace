@@ -1,7 +1,7 @@
 ﻿## Game and Level Design Project - Università degli Studi di Milano - Magistrale di Informatica
-**Group name:** *Rigmarole*
-**Group members:** Giorgio Liggio, Alessio Quercia, Andrea Salamone
-**Team leader:** Giorgio Liggio
+**Group name:** *Rigmarole*  
+**Group members:** Giorgio Liggio, Alessio Quercia, Andrea Salamone  
+**Team leader:** Giorgio Liggio  
 
 ## Overview
 This repository is intended to centralize and coordinate development of a Doctor Who-themed level design project.
