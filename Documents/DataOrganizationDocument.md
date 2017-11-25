@@ -7,7 +7,7 @@
 **Purpose** | To keep an organization over the data used for the project
 **Creation date** | 01/11/2017
 **Current owner** | Alessio Quercia
-**Last modification** | 23/11/2017
+**Last modification** | 25/11/2017
 
 ##**Revision History**
 
@@ -18,7 +18,8 @@ Alessio Quercia | 07/11/2017 | First rough version of the document| 1.0
 Alessio Quercia | 16/11/2017 | Changed document structure and content | 1.1
 Alessio Quercia | 17/11/2017 | Modified the Directory Structure section and added content related to File Naming Convention | 1.2
 Alessio Quercia | 23/11/2017 | Changed document structure and modified the Directory Structure section| 1.2.1
-Alessio Quercia | 24/11/2017 | Added the directory structure image and its description into the Directory Structure section. Modified the File Naming Convention| 1.3
+Rigmarole Team | 24/11/2017 | Added the directory structure image and its description into the Directory Structure section. Modified the File Naming Convention| 1.3
+Alessio Quercia | 25/11/2017 | Second version of the document| 2.0
 
 ##**Contacts**
 
@@ -34,7 +35,7 @@ In the following sections are listed the softwares (together with their versions
 In this section are listed the softwares we will use to edit assets (such as textures, sprites, images and 3D models):
 - _Gimp 2.8_, to make and edit the textures, sprites and images.
 - _Sketchup Make 2017_, to make and edit 3D models.
-- _lender 2.79_, to export 3D models.
+- _Blender 2.79_, to export 3D models.
 
 ###Development Software
 In this section are listed the softwares we will use to develop the project:
@@ -92,7 +93,7 @@ If a member accidentally loses his local copy, he might clone the master copy an
 In this section is described the directory structure of the project, which is the same as the repository in which the project is stored ([GameAndLevelDesign](https://github.com/AlessioQuercia/GameAndLevelDesign)). The structure is shown in the image below:
 
 ![alt text][structure]
-[structure]: https://raw.githubusercontent.com/AlessioQuercia/GameAndLevelDesign/master/Documents/DirectoryStructure.png?token=ARwhxES4u6Dktd9anSWUkpPP0H5r1qjnks5aIcKMwA%3D%3D
+[structure]: https://raw.githubusercontent.com/AlessioQuercia/GameAndLevelDesign/master/Documents/DirectoryStructure.png?token=ARwhxL8nlv4ADY3P5yr4Gl4XlZB9QmGIks5aIr3gwA%3D%3D
 
 
 Each directory contains specific data, according to its name. For this reason, it should be easy to know where to store a file, once it is created, or to retrieve an existing file. For the moment the directory structure is still work in progress, this means we may add or remove directory/files to create a better structure.
