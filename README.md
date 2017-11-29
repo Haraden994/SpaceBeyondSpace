@@ -29,5 +29,6 @@ The following entries are planned milestones for the project development.
 - [ ] Flowchart
 - [ ] Concept art/reference images
 - [ ] Event diagrams
+- [ ] Examples of statistical computation during a fight
 - [ ] (other stuff)
 
