@@ -16,7 +16,7 @@ The following entries are planned milestones for the project development.
 - [x] Data Organization Document (first release)
 
 ### Milestone 2 - 23/11/2017
-- [ ] Game story (final release)
+- [x] Game story (final release)
 - [ ] World diagram (final release)
 
 ### Milestone 3 - 12/12/2017
