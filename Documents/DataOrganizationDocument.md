@@ -2,7 +2,7 @@
 #####Team Rigmarole: Giorgio Liggio, Alessio Quercia, Andrea Salamone
 
 ##Document Information
-* | *
+ - | Information
 ------------ | -------------
 **Purpose** | To keep an organization over the data used for the project
 **Creation date** | 01/11/2017
