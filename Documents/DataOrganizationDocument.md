@@ -93,7 +93,7 @@ If a member accidentally loses his local copy, he might clone the master copy an
 In this section is described the directory structure of the project, which is the same as the repository in which the project is stored ([GameAndLevelDesign](https://github.com/AlessioQuercia/GameAndLevelDesign)). The structure is shown in the image below:
 
 ![alt text][structure]
-[structure]: https://raw.githubusercontent.com/AlessioQuercia/GameAndLevelDesign/master/Documents/DirectoryStructure.png?token=ARwhxL8nlv4ADY3P5yr4Gl4XlZB9QmGIks5aIr3gwA%3D%3D
+[structure]: DirectoryStructure.png?raw=true
 
 
 Each directory contains specific data, according to its name. For this reason, it should be easy to know where to store a file, once it is created, or to retrieve an existing file. For the moment the directory structure is still work in progress, this means we may add or remove directory/files to create a better structure.

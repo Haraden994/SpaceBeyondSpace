@@ -16,6 +16,7 @@ Who | When | What | Version
 Rigmarole Team | 07/11/2017 | First rough version of the game story| 1.0
 Rigmarole Team | 25/11/2017 | Second version of the Game Story| 2.0
 
+
 ##**Contacts**
 
 Team Member | Email
@@ -31,13 +32,22 @@ Landed in a small green planet, Clara and Ashildr discover a scientific colony s
 ##Backstory
 
 ###Scientists' backstory
-A group of scientists found a weird planet with an Earth-like atmosphere and decided to settle a camp on it. They also built two laboratories, not too far from the camp, to conduct their studies on the plants.
+A group of scientists found a planet with an Earth-like atmosphere and decided to settle a camp on it. They also built two laboratories, not too far from the camp, to conduct their studies on the plants.
 The scientists were studying the planet to understand if it could be a possible human colony.
 After conducting some research on the planet, the scientists discovered something interesting within the plants: they seemed to have the same DNA.
 
 ###Planet's backstory
 A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid.
 After some time, the seed reached a form who allowed it to live as the planetoid core, letting itself grow as plants all over the surface.
+
+##Setting
+The story is set in a planet whose core is a sentient seed. The planet surface is mostly composed by vegetation and the atmosphere is similar to the Earth’s one.
+On the planet’s surface, the scientists initially built a main campsite and a landing zone to reach the planet with spaceships. Then they built two laboratories (one opposite to the other) and an additional campsite near them. The two laboratories are not too far one another and they both have the same distance (longer than the one from the two laboratories) from the main campsite and the second campsite. Both the laboratories are built on more levels, including underground levels.
+In the planet's undergrounds are randomly located some caves with plenty of vegetation, enlightened by shiny crystals on the upper side. One of these caves has been reached by a tunnel dug from the second laboratory, and from there another tunnel has been dug until the planet's core.
+The image below shows the world diagram:
+
+![alt text][structure]
+[structure]: WorldDiagram.PNG?raw=true
 
 ##Synopsis
 While traveling in spacetime and talking in broad terms about their latest adventure, Clara and Ashildr activate the TARDIS control panel and move towards their next destination. As soon as they get ready and get out the TARDIS, the two girls realize they were in a human colony on an undefined planet. The diner-shaped TARDIS was out of style in spite of the surroundings, though being hidden from the main ways nobody would ever notice it.
@@ -69,12 +79,7 @@ The central theme of the story is composed by:
 - Cruelty and beauty in the world.
 - The corrupting nature of having great powers.
 - Transhumanism.
-- The nature is not nice.
 
-##Setting
-The story is set in a planet whose core is a sentient seed. The planet surface is mostly composed by vegetation and the atmosphere is similar to the Earth’s one.
-On the planet’s surface, the scientists built a camp and two laboratories (one opposite to the other) in a T shape (where the camp is on the base of the T, and the two laboratories on the other two extremities). The two laboratories are not too far one another and they both have the same distance (longer than the one from the two laboratories) from the main camp. Both the laboratories are built on more levels, including underground levels.
-Near the camp there is a landing zone for spaceships.
 
 ##Level Story
 The earth trembles, computers deactivate, emergency exit is the only way clear. Once they are outside, Clara & Ashildr are told something happened in the underground facilities. They decide to go checking for the nearest lab, looking for some intel. Someone offers to accompany the girls, they need to find a way to get in the lab. 
@@ -90,7 +95,7 @@ The two that accompanied the girls at the beginning, inspired by Clara’s speec
 They arrive in a empty room, which the scientist recognizes. The scientist knows where the elevator is and tells them it’s not too far from their position. He offers to guide them and starts moving.
 Once they reach the elevator, they call it, but when it arrives, the door does not open and they find out it’s blocked. Someone tries to fix it up, but in the meanwhile a group of plant creatures arrives and threatens them. Clara and Ashildr have to find a way to give the one fixing the door some time to fix it. They have to slow the plant creatures down.
 They fight to take time to fix the elevator’s door, then they finally got into the elevator and moved to the underground level, it is covered by roots, with a dark atmosphere: almost all the lights are broken and the roots create obstacles trying to prevent them to pass through the facilities and to seek the survivors.
-They had to save as many scientists as possible and to find out the truth behind these creatures. After surviving an ambush from many plant creatures they reach a great gate leading to an underground cave strangely full of vegetation with the roof covered by some shiny crystals, their attention was taken by a blinding light flowing outside a hole in the ground. They find out a rough tunnel leading to another cave, unnaturally shiny, where they find out a giant seed emanating a strange warm light.
+They had to save as many scientists as possible and to find out the truth behind these creatures. After surviving an ambush from many plant creatures they reach a great gate leading to an underground cave strangely full of vegetation with the upper side covered by some shiny crystals, their attention was taken by a blinding light flowing outside a hole in the ground. They find out a rough tunnel leading to another cave, unnaturally shiny, where they find out a giant seed emanating a strange warm light.
 The scientist stated, by checking on his tablet, that they were in the center of the planet. A loud noise of roots moving is heard and a shape resembling some kind of face form from a near stone. The face ask them: “Again here… What are you willing to do to me this time?! GO AWAY!”. After an useless battle against the plants, the party is captured by roots and vines, begging for their lives, the scientist say this had to be caused by that mad professor.
 They felt the plants hesitate. The plant face say that a man like him did all this, uncovering the final truth. The real enemy is that professor, the seed was the main test subject!
 
