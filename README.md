@@ -20,7 +20,7 @@ The following entries are planned milestones for the project development.
 - [ ] World diagram (final release)
 
 ### Milestone 3 - 12/12/2017
-- [ ] World diagram (final release)
+- [x] World diagram (final release)
 - [ ] Game story and Level story on Ghost plugin
 - [ ] Detailed level diagram (first release)
 - [ ] Detailed level description (first release)
