@@ -1,7 +1,7 @@
-#Game Story Document
-#####Team Rigmarole: Giorgio Liggio, Alessio Quercia, Andrea Salamone
+# Game Story Document
+##### Team Rigmarole: Giorgio Liggio, Alessio Quercia, Andrea Salamone
 
-##Document Information
+## Document Information
 - | Information
 ------------ | -------------
 **Purpose** | To give an overall idea of the game story and a more detailed description of the story's part, related to the level we are designing.
@@ -9,7 +9,7 @@
 **Current owner** | Rigmarole team
 **Last modification** | 25/11/2017
 
-##**Revision History**
+## **Revision History**
 
 Who | When | What | Version
 ------------    | :-------------: | ------------ | :-------------:
@@ -17,7 +17,7 @@ Rigmarole Team | 07/11/2017 | First rough version of the game story| 1.0
 Rigmarole Team | 25/11/2017 | Second version of the Game Story| 2.0
 
 
-##**Contacts**
+## **Contacts**
 
 Team Member | Email
 ------------ | -------------
@@ -26,21 +26,21 @@ Alessio Quercia | alessio.quercia@studenti.unimi.it
 Andrea Salamone | andrea.salamone1@studenti.unimi.it
 
 
-##High Concept
+## High Concept
 Landed in a small green planet, Clara and Ashildr discover a scientific colony studying the local vegetation. An ancient mystery lies beneath the ground. Adventure yourself in the depths of the research facilities to unveil what threatens the people inside. With Clara’s brilliance and Ashildr’s experience the path seems simple, but people aren’t the only ones to be rescued.
 
-##Backstory
+## Backstory
 
-###Scientists' backstory
+### Scientists' backstory
 A group of scientists found a planet with an Earth-like atmosphere and decided to settle a camp on it. They also built two laboratories, not too far from the camp, to conduct their studies on the plants.
 The scientists were studying the planet to understand if it could be a possible human colony.
 After conducting some research on the planet, the scientists discovered something interesting within the plants: they seemed to have the same DNA.
 
-###Planet's backstory
+### Planet's backstory
 A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid.
 After some time, the seed reached a form which allowed it to live as the planetoid core, letting itself grow as plants all over the surface.
 
-##Setting
+## Setting
 The story is set in a planet whose core is a sentient seed. The planet surface is mostly composed by vegetation and the atmosphere is similar to the Earth’s one.
 On the planet’s surface, the scientists initially built a main campsite and a landing zone to reach the planet with spaceships. Then they built two laboratories (one opposite to the other) and an additional campsite near them. The two laboratories are not too far one another and they both have the same distance (longer than the one from the two laboratories) from the main campsite and the second campsite. Both the laboratories are built on more levels, including underground levels.
 In the planet's undergrounds are randomly located some caves with plenty of vegetation, enlightened by shiny crystals on the upper side. One of these caves has been reached by a tunnel dug from the second laboratory, and from there another tunnel has been dug until the planet's core.
@@ -49,7 +49,7 @@ The image below shows the world diagram:
 ![alt text][structure]
 [structure]: WorldDiagram.PNG?raw=true
 
-##Synopsis
+## Synopsis
 While traveling in spacetime and talking in broad terms about their latest adventure, Clara and Ashildr activate the TARDIS control panel and move towards their next destination. As soon as they get ready and get out the TARDIS, the two girls realize they were in a human colony on an undefined planet. The diner-shaped TARDIS was out of style in spite of the surroundings, though being hidden from the main ways nobody would ever notice it.
 The two girls take a look around, and explore the surroundings. Judging by the sight and sounds, they were in a sort of landing area for small spaceships. The dead end of their way forces the duo to get inside a building, and as soon as they get outside from the other side they must stop at a guard post for identification. Clara and Ashildr show their psychic badges making up an excuse on the fly and telling them they are fresh crew, and are told that was not the area they were supposed to be since all scientific and technic personnel must stay in the campsite when not working.
 Clara and Ashildr wonder what was the reason behind human presence on the planet; after brief investigation, they discover the small colony was intended for scientific purposes and eventually colonization, and manage to make up a better cover from that moment on. Next, they needed to find a way to reach the main campsite, discovering there was an automatic railway at the other end of the spaceport. There were displays showing concepts of what seemed a rich and peaceful human city, a form of motivational advertising. Clara and Ashildr get to the railway, and leave for the campsite.
@@ -74,14 +74,14 @@ The two girls manage to get through the traps and obstacles activated by the pro
 The two girls win the fight, and take the professor with them out of the facility, telling the others what really happened and his real intentions. He's brought away from the planet and everything is fixed to continue the life in the colony in peace once again.
 
 
-##Theme
+## Theme
 The central theme of the story is composed by:
 - Cruelty and beauty in the world.
 - The corrupting nature of having great powers.
 - Transhumanism.
 
 
-##Level Story
+## Level Story
 Once outside the first laboratory, Clara and Ashildr meet some of the scientists they saved in the underground facilities. They are told something happened in the underground facilities of the second laboratory and they decide to go looking for some intel about what happened. Three scientists offer to accompany the girls inside the second laboratory, but suddenly the door opened and a couple of scientists run out of the lab screaming out of fear, making them change their minds. The scientists refused to go inside the lab, they wouldn't risk their lives again. Clara and Ashildr adventure by themselves inside the lab, which apparently seems desolate, to look for some info. 
 First rooms are empty, but then they find inside a room a scientist immobilized by a plant, which was going to kill him. Ashildr hit the plant, trying to save him, but it seems to be indestructible. The scientist explains them they have to inject a serum into the plant first, to stop its regeneration process, and then they could kill it. Clara asks the scientist where to find the serum he just mentioned and the scientist replies they have to prepare it and inject it into the plant. He continues, telling them all they need is a big syringe, a herbicide and some sodium chloride. They have to find a herbicide and mix it with some sodium chloride to make it stronger and then to fill the big syringe with the chemical mix they made, the serum. Clara and Ashildr find the ingredients exploring the lab's rooms and prepare the serum. They inject the serum to the plant and then kill it, saving the scientist, who immediately thanks them. He presents himself as Max and explains them the plants had come to life and were rebelling against humans, trying to kill them. He continues saying that in the underground levels the scientists were conducting studies on the plants and assures them he told them everything he knew about what happened.
 Clara tells there must be still people in trouble in the underground levels and that they had to find a way to save them. The scientist tells her she is crazy and that he wouldn’t have gone in the underground levels, first of all because all the people on those levels were probably dead by now, and then because he wouldn’t have risked his life for them. The scientist suggests everyone to escape.
@@ -96,7 +96,7 @@ The scientist stated, by checking on his tablet, that they were in the center of
 They felt the plants hesitate. The plant face say that a man like him did all this, uncovering the final truth. The real enemy is that professor, the seed was the main test subject!
 
 
-##References
+## References
 The references for the main characters are listed below:
 - Clara: _Action Girl_, _Badass Bookworm_.
 - Ashildr: _The Ace_.
