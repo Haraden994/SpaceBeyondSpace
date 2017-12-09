@@ -2,7 +2,7 @@
 ##### Team Rigmarole: Giorgio Liggio, Alessio Quercia, Andrea Salamone
 
 ## Document Information
- - | Information
+ . | Information  
 ------------ | -------------
 **Purpose** | To keep an organization over the data used for the project
 **Creation date** | 01/11/2017
@@ -93,9 +93,7 @@ If a member accidentally loses his local copy, he might clone the master copy an
 ### Directory Structure
 In this section is described the directory structure of the project, which is the same as the repository in which the project is stored ([GameAndLevelDesign](https://github.com/AlessioQuercia/GameAndLevelDesign)). The structure is shown in the image below:
 
-![alt text][structure]
-[structure]: DirectoryStructure.png?raw=true
-
+![alt text](DirectoryStructure.png?raw=true)
 
 Each directory contains specific data, according to its name. For this reason, it should be easy to know where to store a file, once it is created, or to retrieve an existing file. For the moment the directory structure is still work in progress, this means we may add or remove directory/files to create a better structure.
 The main directory contains two different directories: _Assets_ and _Documents_. This last one contains the game related documents, such as the Game Story Document or this document (Data Organization Document). The _Assets_ directory contains all the game assets and it's divided into other five directories:
