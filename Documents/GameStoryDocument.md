@@ -2,7 +2,7 @@
 ##### Team Rigmarole: Giorgio Liggio, Alessio Quercia, Andrea Salamone
 
 ## Document Information
-- | Information
+. | Information
 ------------ | -------------
 **Purpose** | To give an overall idea of the game story and a more detailed description of the story's part, related to the level we are designing.
 **Creation date** | 01/11/2017
@@ -46,8 +46,7 @@ On the planet’s surface, the scientists initially built a main campsite and a 
 In the planet's undergrounds are randomly located some caves with plenty of vegetation, enlightened by shiny crystals on the upper side. One of these caves has been reached by a tunnel dug from the second laboratory, and from there another tunnel has been dug until the planet's core.
 The image below shows the world diagram:
 
-![alt text][structure]
-[structure]: WorldDiagram.PNG?raw=true
+![alt text](WorldDiagram.PNG?raw=true)
 
 ## Synopsis
 While traveling in spacetime and talking in broad terms about their latest adventure, Clara and Ashildr activate the TARDIS control panel and move towards their next destination. As soon as they get ready and get out the TARDIS, the two girls realize they were in a human colony on an undefined planet. The diner-shaped TARDIS was out of style in spite of the surroundings, though being hidden from the main ways nobody would ever notice it.
