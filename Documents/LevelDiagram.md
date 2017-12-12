@@ -4,7 +4,7 @@
 ## Document Information
 . | Information
 ------------ | -------------
-**Purpose** | To show the level map together with the areas description. In this document are also described all the aspects strictly related to the level, such as obstacles, enemies, puzzles and flowcharts.
+**Purpose** | To show the level map together with the areas description and the main obstacles the player will meet.
 **Creation date** | 11/12/2017
 **Current owner** | Rigmarole team
 **Last modification** | 12/12/2017
