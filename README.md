@@ -17,13 +17,12 @@ The following entries are planned milestones for the project development.
 
 ### Milestone 2 - 23/11/2017
 - [x] Game story (final release)
-- [ ] World diagram (final release)
+- [x] World diagram (final release)
 
 ### Milestone 3 - 12/12/2017
-- [x] World diagram (final release)
 - [ ] Game story and Level story on Ghost plugin
-- [ ] Detailed level diagram (first release)
-- [ ] Detailed level description (first release)
+- [x] Detailed level diagram (first release)
+- [x] Detailed level description (first release)
 
 ### Milestone 4 - 09/01/2018
 - [ ] Detailed level diagram (final release)
@@ -32,5 +31,6 @@ The following entries are planned milestones for the project development.
 - [ ] Concept art/reference images
 - [ ] Event diagrams
 - [ ] Examples of statistical computation during a fight
+- [ ] Finite-state machines for the behavior of at least 3 NPC
 - [ ] (other stuff)
 
