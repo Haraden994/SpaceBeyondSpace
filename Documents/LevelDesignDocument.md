@@ -56,7 +56,8 @@
 | Giorgio Liggio | 05/01/2018 | Polished level names, added final level goals (except level 6). |  0.5.1  |
 | Giorgio Liggio | 06/01/2018 | Updated level goals. |  0.5.2  |
 | Alessio Quercia | 07/01/2018 | Added characters: Max, Yok and The Primordial. |   0.6   |
-| Giorgio Liggio | 09/01/2018 | Branch merging.                          |   0.7   |
+| Andrea Salamone | 08/01/2018 | Completed the enemies section.           |   0.7   |
+| Giorgio Liggio | 09/01/2018 | Branch merging.                          |   0.8   |
 
 <div style="page-break-after: always;"></div>
 
@@ -278,7 +279,103 @@ A long time ago a sentient plant seed started to attract solid matter to itself.
 
 These are the enemies the player must face during the game.
 
-[ Plants list ]
+#### 2.3.2.1. Liannoyer
+
+![LDD_Liannoyer](img/LDD_Liannoyer.jpg)
+
+A Liannoyer is the most common plant creature, half the height of the PCs, that can be found in the laboratory complex after the earthquake. It senses humans through ground vibrations and attacks them by using his thorned liane as whips (*melee* attacks). They are weak to *slashing* damage. Max's serum (*Fytoprolipser*) is uneffective on these plants.
+
+**Stats:**
+
+- *Strength:* 14 (+2)
+- *Dexterity:* 11 (+0)
+- *Constitution:* 8 (-1)
+- *Intelligence:* 2 (-4)
+- *Wisdom:* 11 (+0)
+
+#### 2.3.2.2. Needler
+
+![LDD_Needler](img/LDD_Needler.jpg)
+
+A Needler is a lethal plant creature, 3/4 the height of Me, it is often found in groups of other creatures. It sense humans through body temperature and attack on sight. Its attacks are *ranged* barrages of sharp needles. They are weak to *fire* and *slashing* damages. Max's serum (*Fytoprolipser*) is uneffective on these plants.
+
+**Stats:**
+
+- *Strength:* 8 (-1)
+- *Dexterity:* 15 (+3)
+- *Constitution:* 9 (-1)
+- *Intelligence:* 5 (-3)
+- *Wisdom:* 13 (+1)
+
+#### 2.3.2.3. Treant
+
+![LDD_Liannoyer](img/LDD_Treant.jpg)
+
+A Treant is a bulky, wooden plant creature, nearly the same height of the PCs. It is apparently innocue since it can be found as an unmoving obstacle in the level. It can be fought when enraged, it's attacks are *melee*: body slams and stomps that can *stun* the PCs. *Fire* and *bludgeoning* damages are useful against it. Max's serum (*Fytoprolipser*) is needed to let a Treant enrage and move from its position.
+
+**Stats:**
+
+- *Strength:* 17 (+3)
+- *Dexterity:* 5 (-3)
+- *Constitution:* 16 (+3)
+- *Intelligence:* 3 (-4)
+- *Wisdom:* 9 (-1)
+
+#### 2.3.2.4. Elevine
+
+![LDD_Liannoyer](img/LDD_Elevine.jpg)
+
+An Elevine is a small plant creature similar to a vine mass that can be electrically charged, storing energy. Elevines usually crawl on the floor and are found in groups. They attack by swinging their electrical vines (*melee* attacks). Their frail body is weak to *slashing* damage but using *conductive* weapons can damage the user. Upon dying they discharge their bodies, causing a *ranged* electrical damage to each PC (*AoE*) that can *paralyze*. Max's serum (*Fytoprolipser*) is useful to inhibit their discharging ability and to keep them electrically charged after their defeat, Elevines defeated in this way can be used as electric source to power some devices.
+
+**Stats:**
+
+- *Strength:* 5 (-3)
+- *Dexterity:* 16 (+3)
+- *Constitution:* 7 (-2)
+- *Intelligence:* 9 (-1)
+- *Wisdom:* 14 (+2)
+
+#### 2.3.2.5. Thunder Blossom 
+
+![LDD_Liannoyer](img/LDD_ThunderBlossom.jpg)
+
+The Thunder Blossom is a dangerous plant creature, nearly the same height of the PCs. These creatures are attracted by big power sources, from them they can accumulate big electrical charges in their bulb becoming more dangerous and powerful. They attack humans with fast, electrical charged lashes dealing heavy *melee* damage. When in danger they emit condensed pollen clouds that generate lightnings hitting randomly the surroundings, these clouds can be considered as enemies and are nullificated by dealing *frost* damage to them. Using *conductive* weapons can damage the user. Max's serum (*Fytoprolipser*) is useful to increase the resistivity of the creature, dealing damage each turn and weakening its damage output.
+
+**Stats:**
+
+- *Strength:* 17 (+3)
+- *Dexterity:* 15 (+2)
+- *Constitution:* 13 (+1)
+- *Intelligence:* 9 (-1)
+- *Wisdom:* 14 (+2)
+
+**Electric Generator variation**: A Thunder Blossom is found in the second underground section of the laboratory, grasping the floor's generator, shutting off every technological system in the zone. This variation of the creature can be uselessly fought, it receives no damage because of his supercharged electrical body and deals slightly more damage to the PCs. The only way to defeat it is by overcharging the main electrical generator by activating all of the auxiliary ones found in other rooms, this will involve him exploding due to it's incapability to contain so much energy.
+
+#### 2.3.2.6. Fire Flower
+
+![LDD_Liannoyer](img/LDD_FireFlower.jpg)
+
+A Fire Flower is an interesting and potentially deadly plant creature, half the height of the PCs. It can be found in the underground cave. Fire Flowers sense humans by ultrasounds and throw *scorching* embers to them (*ranged* attacks), causing a *damage over time* effect. When defeated by *slashing* damage, two brand new Fire Flowers will generate, this ability does not work if defeated by *bludgeoning* damage. Max's serum (*Fytoprolipser*) can be used to lower the temperature of the creature, making it weak to *frost* damage, if a Fire Flower is defeated by this type of damage it will not generate duplicates.
+
+**Stats:**
+
+- *Strength:* 5 (-3)
+- *Dexterity:* 16 (+3)
+- *Constitution:* 11 (0)
+- *Intelligence:* 10 (0)
+- *Wisdom:* 12 (+1)
+
+#### 2.3.2.7. Spore Sprayer
+
+![LDD_Liannoyer](img/LDD_SporeSprayer.jpg)
+
+Spore Sprayers are plant creatures that cannot be fought due to their poisonous spores released in the area, killing every living being that breathes the spores. They can be defeated by preparing a chemical serum made with its own spores. Clara doesn't need to breathe, so she can freely move inside the contaminated area and defeat the plant.
+
+#### 2.3.2.8. Overseers
+
+![LDD_Liannoyer](img/LDD_Overseer.jpg)
+
+The Overseers are non fighting plant creatures looking like roots out of the ground, found in the cave. The player must pay attention to their similarity with normal roots, when they are touched, they spawn many plant creatures to defend the cave. If the player manages to defeat each of the plant spawned by an Overseer he turns into normal roots.
 
 ## 2.4. Background
 
@@ -465,7 +562,6 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Fight back against the monsters
 - Defeat Yok
 - Leave the laboratories
-
 
 <div style="page-break-after: always;"></div>
 
