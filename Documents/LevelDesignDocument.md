@@ -57,7 +57,9 @@
 | Giorgio Liggio  | 06/01/2018 | Updated level goals.                     |  0.5.2  |
 | Alessio Quercia | 07/01/2018 | Added characters: Max, Yok and The Primordial. |   0.6   |
 | Andrea Salamone | 08/01/2018 | Completed the enemies section.           |   0.7   |
-| Giorgio Liggio  | 09/01/2018 | Branch merging.                          |   0.8   |
+| Giorgio Liggio | 09/01/2018 | Branch merging #1.                          |   0.8   |
+| Alessio Quercia | 09/01/2018 | Added level puzzles.                          |  0.8.1  |
+| Giorgio Liggio | 14/01/2018 | Branch merging #2.                          |  0.8.5  |
 
 <div style="page-break-after: always;"></div>
 
@@ -124,157 +126,165 @@ Subterranean quarries and caves can be found in the planet strata. One is linked
 The following are the main relevant characters the player will meet and interact with throughout the whole game, including both goodies and baddies.
 
 #### 2.3.1.1. Clara Oswald (The Impossible Girl)
-![Clara Oswald](img/LDD_Clara.jpg?raw=true)
-- **Age**: 27.
-- **Gender**: Female.
-- **Values/Virtues**: Brave, Loyal, Clever.
-- **Personality**: Kind, Feisty, Bossy, Stubborn, Altruist.
-- **Look/Feel**: Charming, Pretty.
-- **Alignment**: Science Hero.
-- **Archetype**: Rebellious Spirit.
-- **Role**: Protagonist.
-- **Basic Stats**:
-  - *Hit Points*: 20.
-  - *Armor Class*: 10.
-  - *Strength*: 8 (-1).
-  - *Dexterity*: 14 (+2).
-  - *Constitution*: 10 (+0).
-  - *Intelligence*: 16 (+3).
-  - *Wisdom*: 11 (+0).
-  - *Charisma*: 13 (+1).
-- **Weapons**:
-  - *Dual element gun*:
-    It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara. This robot was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or ice with a moderate waiting time between switching to an element or another. (High intelligence and dexterity is needed for this weapon).
 
-- **Abilities**:
-  - *Taekwondo*:
-    Clara has been learning the martial art after teaching in the school. She has also helped some of her students in learning it.
-  - *Fencing skills*:
-    Clara, during her time with the Doctor, learned self-defence skills and managed to use cold weapons, like swords, to show her fencing skills.
-  - *Highlight useful items*:
-    Thanks to her high intelligence stats, Clara can highlight useful items in a certain range around her.
-  - *No need to breathe*:
-    After being temporarily saved from her death by the Doctor, Clara became functionally immortal. Clara's heart is in a frozen state and stopped pumping blood inside her body and to her brain. Thus, Clara has no need to breathe. She is in a stasis state.
+![alt_text](img/LDD_Clara.jpg)
 
-- **Short Biography**:
-  Clara has been a nanny and a school teacher, even though during her time she has been traveling in time and space as companion of the Eleventh Doctor, and then of the Twelfth one. She is called "The Impossible Girl" by the Doctor, because he met her and saw her dying in different timelines. Sadly for the Doctor, Clara's death became a fixed point in time, when she died trying to save her friend Rigsy, taking the Quantum Shade Me had pointed on him. The Doctor succeeded in extracting her before her death, but she entered a stasis state, becoming functionally immortal.
-  After the Doctor unsuccessfully tried to save her from her death, wiping his memory of her, she decided to face her death, travelling "the long way round" back to Gallifrey using her stolen TARDIS, with Me for company.
+**Age**: 27.
+
+**Gender**: Female.
+
+**Values/Virtues**: Brave, Loyal, Clever.
+
+**Personality**: Kind, Feisty, Bossy, Stubborn, Altruist.
+
+**Archetype**: Science Hero, Rebellious Spirit.
+
+**Role**: Protagonist.
+
+
+**Weapons**:
+- *Dual element gun*:
+It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara. This robot was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or ice with a moderate waiting time between switching to an element or another. (High intelligence and dexterity is needed for this weapon).
+
+**Abilities**:
+- *Taekwondo*:
+Clara has been learning the martial art after teaching in the school. She has also helped some of her students in learning it.
+- *Fencing skills*:
+Clara, during her time with the Doctor, learned self-defence skills and managed to use cold weapons, like swords, to show her fencing skills.
+- *Highlight useful items*:
+Thanks to her high intelligence stats, Clara can highlight useful items in a certain range around her.
+- *No need to breathe*:
+After being temporarily saved from her death by the Doctor, Clara became functionally immortal. Clara's heart is in a frozen state and stopped pumping blood inside her body and to her brain. Thus, Clara has no need to breathe. She is in a stasis state.
+
+**Short Biography**:
+
+Clara has been a nanny and a school teacher, even though during her time she has been traveling in time and space as companion of the Eleventh Doctor, and then of the Twelfth one. She is called "The Impossible Girl" by the Doctor, because he met her and saw her dying in different timelines. Sadly for the Doctor, Clara's death became a fixed point in time, when she died trying to save her friend Rigsy, taking the Quantum Shade Me had pointed on him. The Doctor succeeded in extracting her before her death, but she entered a stasis state, becoming functionally immortal.
+After the Doctor unsuccessfully tried to save her from her death, wiping his memory of her, she decided to face her death, travelling "the long way round" back to Gallifrey using her stolen TARDIS, with Me for company.
 
 #### 2.3.1.2. Me (Ashildr)
-![Me](img/LDD_Me.jpg?raw=true)
-- **Age**: Universe age.
-- **Gender**: Female.
-- **Values/Virtues**: Brave, Agile, Avenger.
-- **Personality**: Cold, Detached, Vengeful, Bored.
-- **Look/Feel**: Short, Cold.
-- **Alignment**: Action Hero.
-- **Archetype**: Rebellious Spirit, Lovable Rogue.
-- **Role**: Protagonist, Badass.
-- **Basic Stats**:
-  - *Hit Points*: 30.
-  - *Armor Class*: 12.
-  - *Strength*: 15 (+3).
-    - *Dexterity*: 12 (+1).
-    - *Constitution*: 14 (+2).
-    - *Intelligence*: 10 (+0).
-    - *Wisdom*: 11 (+0).
-    - *Charisma*: 14 (+2).
-- **Weapons**:
-  - Any weapon:
-    During her life, Me managed to use any kind of weapon, from the cold ones to the firarms. Thus she might use any weapon she finds in her way.
 
-- **Abilities**:
-  - *Fighting skills*:
-    Me has learned to fight to survive. She can fight with any kind of weapon and even with her bare hands.
-  - *Picklocking/Hacking skills*:
-    Me has been a thief during a period of her life. She learned picklocking skills and even some hacking skills to gain access to computer protected by passwords and some doors protected by electric systems.
-  - *Tech knowledge*:
-    Me has lived until the end of the Universe, thus she had the possibility to see the technological progress until its end.
-  - *Health regeneration*:
-    Me has been saved by the Doctor, who used the Mire technology on her, transforming her into an immortal being. Thanks to this technology, she has continous health regeneration. When she reaches 1 HP, she enters an inactivity phase, where she will regenerate to full health.
+![alt_text](img/LDD_Me.jpg)
 
-- **Short Biography**:
-  Me is a Viking girl encountered by the Twelfth Doctor and Clara Oswald. After a battle against the Mire, she died, but the Doctor resurrected her using a Mire repair kit, transforming her into an immortal being. During her time, she asked several times to the Doctor to bring her with him as a companion during his travels in time and space, but the Doctor refused each time. For this reason, she became bitter to the Doctor and was convinced from the Time Lords to trick the Doctor into being transported inside his confession dial. Things went differently from what she has planned and Clara died. She didn't mean to kill Clara and apologized to the Doctor, who warned her it would be a good idea for her to stay out of his way.
-  Me survived until the end of the Universe, assisting to its death into a bubble of reality from Gallifrey, becoming the last living being on the Universe and waiting for the Doctor and Clara. When they arrived on Gallifrey, she saw them talking for their last time, when the Doctor wiped his memory of her. Then she decided to travel alongside Clara with her stolen Tardis.
+**Age**: Universe age.
+
+**Gender**: Female.
+
+**Values/Virtues**: Brave, Agile, Avenger.
+
+**Personality**: Cold, Detached, Vengeful, Bored.
+
+**Archetype**: Action Hero, Rebellious Spirit, Lovable Rogue.
+
+**Role**: Protagonist, Badass.
+
+
+**Weapons**:
+- Any weapon:
+During her life, Me managed to use any kind of weapon, from the cold ones to the firarms. Thus she might use any weapon she finds in her way.
+
+**Abilities**:
+- *Fighting skills*:
+Me has learned to fight to survive. She can fight with any kind of weapon and even with her bare hands.
+- *Picklocking/Hacking skills*:
+Me has been a thief during a period of her life. She learned picklocking skills and even some hacking skills to gain access to computer protected by passwords and some doors protected by electric systems.
+- *Tech knowledge*:
+Me has lived until the end of the Universe, thus she had the possibility to see the technological progress until its end.
+- *Health regeneration*:
+Me has been saved by the Doctor, who used the Mire technology on her, transforming her into an immortal being. Thanks to this technology, she has continous health regeneration. When she reaches 1 HP, she enters an inactivity phase, where she will regenerate to full health.
+
+**Short Biography**:
+
+Me is a Viking girl encountered by the Twelfth Doctor and Clara Oswald. After a battle against the Mire, she died, but the Doctor resurrected her using a Mire repair kit, transforming her into an immortal being. During her time, she asked several times to the Doctor to bring her with him as a companion during his travels in time and space, but the Doctor refused each time. For this reason, she became bitter to the Doctor and was convinced from the Time Lords to trick the Doctor into being transported inside his confession dial. Things went differently from what she has planned and Clara died. She didn't mean to kill Clara and apologized to the Doctor, who warned her it would be a good idea for her to stay out of his way.
+Me survived until the end of the Universe, assisting to its death into a bubble of reality from Gallifrey, becoming the last living being on the Universe and waiting for the Doctor and Clara. When they arrived on Gallifrey, she saw them talking for their last time, when the Doctor wiped his memory of her. Then she decided to travel alongside Clara with her stolen Tardis.
 
 #### 2.3.1.3. Max
 
-![Max](img/LDD_Max.jpg?raw=true)
-- **Age**: 34.
-- **Gender**: Male.
-- **Values/Virtues**: Benevolent, Smart, Determined.
-- **Personality**: Polite, Absent-Minded.
-- **Look/Feel**: Nice, Distracted.
-- **Alignment**: Science Hero.
-- **Archetype**: Eccentric Mentor.
-- **Role**: Supporting Protagonist, Cloud Cuckoolander.
-- **Basic Stats**:
-  - *Hit Points*: 25.
-  - *Armor Class*: 10.
-  - *Strength*: 8 (-1).
-  - *Dexterity*: 12 (+1).
-  - *Constitution*: 12 (+1).
-  - *Intelligence*: 16 (+3).
-  - *Wisdom*: 15 (+2).
-  - *Charisma*: 9 (-1).
-- **Weapons**:
-  - *Chemical kit*: 
-    - Damaging compounds.
-    - Impairing substances.
-  - *Fytoprolipser*: 
-    A serum proudly made by Max himself. It has different effects depending on the plant on which it is used: 
-    - Weakening a plant.
-    - Inhibit some plant properties.
+![alt_text](img/LDD_Max.jpg)
 
-- **Abilities**:
-  - *Highlight scientific items*: 
-    Thanks to his laboratory and scientific knowledge, Max can easily detect scientific items, highlighting them. Besides, he can suggest paths inside the laboratory complex.
-  - *Identify weak spots*: 
-    Max's studies about the plants allow him to find weak spots on different kind of plants. Thanks to his plant knowledge he can provide useful advices.
-  - *Advanced scientist badge*: 
-    Laboratories' areas are hierachically divided. This badge allows Max to enter specific scientific areas in the laboratories (NOT each area of the laboratories).
-- **Short Biography**: 
-  Max is a member of the research team sent on the planet to determine wheater or not the planet could be a possible human colony. His studies are mainly focused on the planet vegetation, indeed he is a plant expert. When the earthquake happened, Max was caught by surprise by some plants and got trapped by some roots growing from the floor. Once saved by Clara and Me, Max initially decided to escape, but then was convinced by Me to fight alongside them to understand why the plants began attacking the humans and to save the human beings on the planet from an imminent catastrophe.
+**Age**: 34.
 
+**Gender**: Male.
+
+**Values/Virtues**: Benevolent, Smart, Determined.
+
+**Personality**: Polite, Absent-Minded.
+
+**Archetype**: Science Hero, Eccentric Mentor.
+
+**Role**: Supporting Protagonist, Cloud Cuckoolander.
+
+
+
+**Weapons**:
+- *Chemical kit*: 
+	- Damaging compounds.
+	- Impairing substances.
+- *Fytoprolipser*: 
+A serum proudly made by Max himself. It has different effects depending on the plant on which it is used: 
+	- Weakening a plant.
+	- Inhibit some plant properties.
+
+**Abilities**:
+- *Highlight scientific items*: 
+Thanks to his laboratory and scientific knowledge, Max can easily detect scientific items, highlighting them. Besides, he can suggest paths inside the laboratory complex.
+- *Identify weak spots*: 
+Max's studies about the plants allow him to find weak spots on different kind of plants. Thanks to his plant knowledge he can provide useful advices.
+- *Advanced scientist badge*: 
+Laboratories' areas are hierachically divided. This badge allows Max to enter specific scientific areas in the laboratories (NOT each area of the laboratories).
+
+**Short Biography**: 
+
+Max is a member of the research team sent on the planet to determine wheater or not the planet could be a possible human colony. His studies are mainly focused on the planet vegetation, indeed he is a plant expert. When the earthquake happened, Max was caught by surprise by some plants and got trapped by some roots growing from the floor. Once saved by Clara and Me, Max initially decided to escape, but then was convinced by Me to fight alongside them to understand why the plants began attacking the humans and to save the human beings on the planet from an imminent catastrophe.
 
 #### 2.3.1.4. Dr. Yok
 
-![Dr. Yok](img/LDD_Yok.jpg?raw=true)
+![alt_text](img/LDD_Yok.jpg)
 
-- **Age**: 61.
-- **Gender**: Male.
-- **Values/Virtues**: Genius, Altruist.
-- **Personality**: Irritable, Ambitious, Persuasive.
-- **Look/Feel**: Old, Bossy.
-- **Alignment**: Science Villain.
-- **Archetype**: Mad Scientist, Person of Mass Destruction.
-- **Role**: Antagonist, Face Heel Turn.
-- **Basic Stats**: None.
-- **Weapons**: None.
-- **Abilities**:
-  - *Perfect form (final levels)*: 
-    Yok is a brilliant scientist, a genius. His anatomy and biology studies allowed him to make several experiments on the humans in order to create a new form of being, an improvement of the human race, combining together the best traits from both the plants and the humans. The mutants created by Yok are not perfect, they presents several flaws, but his last untested composite is much more powerful than the precedent ones. Having no choices, Yok tested his last composite on himself, transforming himself into the perfect mutant. As a mutant, Yok's stats drastically changes, confering him High Strength, High Dexterity and High Costitution. Besides, he can mutate the form of his arms, thanks to the plants' traits, and make some special attacks.
-- **Short Biography**: 
-  Yok is the leader of the research team sent on the planet to study its structure and liveability. After some studies, he found a way to mix up traits from plants and humans in order to create a mutant. Over time, he developed his plan to create the *Perfect form*. He kept his plan and experiments secret to most of the scientists on the planet, but in the end Clara, Me and Max find it out and try to stop him. Having no choices, Yok transform himself into a mutant using his last untested composite, reaching the *Perfect form*.
+**Age**: 61.
+
+**Gender**: Male.
+
+**Values/Virtues**: Genius, Altruist.
+
+**Personality**: Irritable, Ambitious, Persuasive.
+
+**Archetype**: Science Villain, Mad Scientist, Person of Mass Destruction.
+
+**Role**: Antagonist, Face Heel Turn.
+
+
+**Abilities**:
+- *Perfect form (final levels)*: 
+Yok is a brilliant scientist, a genius. His anatomy and biology studies allowed him to make several experiments on the humans in order to create a new form of being, an improvement of the human race, combining together the best traits from both the plants and the humans. The mutants created by Yok are not perfect, they presents several flaws, but his last untested composite is much more powerful than the precedent ones. Having no choices, Yok tested his last composite on himself, transforming himself into the perfect mutant. As a mutant, Yok can mutate the form of his arms, thanks to the plants' traits, and make some special attacks.
+
+**Short Biography**:
+
+Yok is the leader of the research team sent on the planet to study its structure and liveability. After some studies, he found a way to mix up traits from plants and humans in order to create a mutant. Over time, he developed his plan to create the *Perfect form*. He kept his plan and experiments secret to most of the scientists on the planet, but in the end Clara, Me and Max find it out and try to stop him. Having no choices, Yok transform himself into a mutant using his last untested composite, reaching the *Perfect form*.
 
 #### 2.3.1.5. The Primordial
 
-![The Primordial](img/LDD_Primordial.jpg?raw=true)
-- **Age**: Millennia.
-- **Gender**: None.
-- **Values/Virtues**: Just, Peace Seeker.
-- **Personality**: Peaceful, Defensive, Protective.
-- **Look/Feel**: Green, Grassy.
-- **Alignment**: Villain, then Hero.
-- **Archetype**: Turncoat, Eldritch Abomination.
-- **Role**: Heel Face Turn.
-- **Basic Stats**: None.
-- **Weapons**: None.
-- **Abilities**:
-  - *"Grow, plants!"*: 
-    Focusing his energies, The Primordial can spawn different types of plants, roots and flowers. He can manipulate the planet's vegetation.
-- **Short Biography**: 
-  A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid. After some time, the seed reached a form which allowed it to live as the planetoid core, letting itself grow as plants all over the surface. Once the humans landed on him, he decided to live in peace with them, because they also seemed to be peaceful and respectful towards him. When the humans started mistreating him he began to react passively and when Yok penetrated his core, The Primordial started to attack humans actively, manipulating the vegetation.
+![alt_text](img/LDD_Primordial.jpg)
+
+**Age**: Centuries.
+
+**Gender**: None.
+
+**Values/Virtues**: Just, Peace Seeker.
+
+**Personality**: Peaceful, Defensive, Protective.
+
+**Archetype**: Villain (then Hero), Turncoat, Eldritch Abomination.
+
+**Role**: Heel Face Turn.
+
+
+**Abilities**:
+- *"Grow, plants!"*: 
+Focusing his energies, The Primordial can spawn different types of plants, roots and flowers. He can manipulate the planet's vegetation.
+
+**Short Biography**:
+
+A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid. After some time, the seed reached a form which allowed it to live as the planetoid core, letting itself grow as plants all over the surface. Once the humans landed on him, he decided to live in peace with them, because they also seemed to be peaceful and respectful towards him. When the humans started mistreating him he began to react passively and when Yok penetrated his core, The Primordial started to attack humans actively, manipulating the vegetation.
 
 ### 2.3.2. Enemies
 
@@ -465,7 +475,7 @@ The story is based on _Three Act Structure_: Clara and Ashildr receive and accep
 
 ## 2.8. World diagram
 
-![World diagram](img/LDD_WorldDiagram.png?raw=true)
+![World diagram](img/LDD_WorldDiagram.png)
 
 ## 2.9. Goal outlines
 
@@ -577,14 +587,48 @@ Ashildr saves him from the plants and closes the door, barricading it with the n
 The scientist agrees to join their “team” and to go to the underground levels, but now they were stuck in that room, with plant creatures outside it.
 After a moment of hesitation, Clara starts talking and explains her plan: they could use the ventilation ducts and find a way to the elevator. Everyone agree to Clara's plan and they start going in the ventilation ducts until they arrive in a empty room, which the scientist recognizes. The scientist knows where the elevator is and tells them it’s not too far from their position. He offers to guide them and starts moving. ***(4)***
 Once they reach the elevator, they call it, but when it arrives, the door does not open and they find out it’s blocked. Someone tries to fix it up, but in the meanwhile a group of plant creatures arrives and threatens them. Clara and Ashildr have to find a way to give the one fixing the door some time to fix it. They have to slow the plant creatures down. ***(5)***
-
-They fight to take time to fix the elevator’s door, then they finally got into the elevator and moved to the underground level, it is covered by roots, with a dark atmosphere: almost all the lights are broken and the roots create obstacles trying to prevent them to pass through the facilities and to seek the survivors.
-
 They had to save as many scientists as possible and to find out the truth behind these creatures. ***(6)*** After surviving an ambush from many plant creatures ***(7)*** they reach a great gate leading to an underground cave strangely full of vegetation with the upper side covered by some shiny crystals, their attention was taken by a blinding light flowing outside a hole in the ground. They find out a rough tunnel leading to another cave, unnaturally shiny, where they find out a giant seed emanating a strange warm light. ***(8)***
 The scientist stated, by checking on his tablet, that they were in the center of the planet. A loud noise of roots moving is heard and a shape resembling some kind of face form from a near stone. The face ask them: “Again here… What are you willing to do to me this time?! GO AWAY!”. After an useless battle against the plants, the party is captured by roots and vines, begging for their lives, the scientist say this had to be caused by that mad professor. ***(9)***
 They felt the plants hesitate. The plant face say that a man like him did all this, uncovering the final truth. The real enemy is that professor, the seed was the main test subject! ***(10)***
 
+**Enemies Chart**
+The following table shows which enemies the player will encounter in the different areas of the level.
+
+| Enemy \ Area    | Outside the Laboratory | Laboratory's Ground Floor | Laboratory's Undergrounds | The Cave |
+| ---------------- | :--------------------: | :-----------------------: | :-----------------------: | :------: |
+| Liannoyers       |                        |             X             |             X              |          |
+| Needlers         |                        |             X             |             X              |          |
+| Treant           |                        |             X             |             X              |          |
+| Fire Flower Crew |                        |             X             |             X              |     X    |
+| Spore Sprayer    |                        |             X             |             X              |     X    |
+| Elevines         |                        |                           |             X              |     X    |
+| Thunder Blossom  |                        |                           |             X              |          |
+| Overseer         |                        |                           |                            |     X    |
+| Armored Vines    |                        |                           |             X              |          |
+| Armored Pods     |                        |                           |             X              |          |
+
+
+
+**Skills Chart**
+The following table shows which skills the player will be able to use with the different playable characters: Clara Oswald (C), Ashildr (A), Max (M).
+
+| Skill \ Area    | Outside the Laboratory | Laboratory's Ground Floor | Laboratory's Undergrounds | The Cave |
+| ---------------- | :--------------------: | :-----------------------: | :-----------------------: | :------: |
+| Moving    |              C, A               |             C, A, M             |           C, A, M           |     C, A, M    |
+| Attacking    |              C, A               |             C, A, M            |            C, A, M           |     C, A, M    |
+| Interacting    |             C, A               |            C, A, M             |            C, A, M           |     C, A, M    |
+| Open doors       |                        |          C, A, M          |        C, A, M           | C, A, M  |
+| Pick up items    |         C, A, M        |          C, A, M          |        C, A, M           | C, A, M  |
+| Use weapons      |                        |             C, A          |         C, A           |   C, A   |
+| Use potions  |                            |             M             |             M           |     M    |
+| Picklocking/Hacking |                     |             A             |            A           |     A    |
+| Highlight useful items      |      C      |             C             |             C           |     C    |
+| Highlight scientific items  |             |             M             |             M           |     M    |
+| Fighting with hands    |                  |          C, A             |         C, A           |   C, A   |
+
 ## 3.2. Level diagram
+
+[ Global level diagram goes here ]
 
 ## 3.3. Section description: *Laboratories, first floor* 
 
@@ -604,7 +648,7 @@ Step-by-step description of level section, including zoom-ins from the level sec
 
 Level flow chart and description.
 
-### 3.3.5. Event diagram 
+### 3.3.5. Event diagram
 
 Level event diagram and description.
 
