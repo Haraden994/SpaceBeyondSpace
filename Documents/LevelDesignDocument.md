@@ -52,7 +52,7 @@
 | Giorgio Liggio  | 02/01/2018 | Fixed "High concept", "Setting"; added early level goal outlines. |   0.4   |
 | Giorgio Liggio  | 03/01/2018 | Added level names, expanded level goals, minor fixes. |  0.4.5  |
 | Giorgio Liggio  | 04/01/2018 | Improved level names, added more level goals. |   0.5   |
-| Alessio Quercia | 04/01/2018 | Added character layouts. Added Clara Oswald and Ashildr. |   0.5   |
+| Alessio Quercia | 04/01/2018 | Added character layouts. Added Clara Oswald and Me. |   0.5   |
 | Giorgio Liggio  | 05/01/2018 | Polished level names, added final level goals (except level 6). |  0.5.1  |
 | Giorgio Liggio  | 06/01/2018 | Updated level goals.                     |  0.5.2  |
 | Alessio Quercia | 07/01/2018 | Added characters: Max, Yok and The Primordial. |   0.6   |
@@ -674,6 +674,8 @@ Level flow chart and description.
 
 Level event diagram and description.
 
+<div style="page-break-after: always;"></div>
+
 # 4. Level puzzles
 
 In this section are described the puzzles included in the 6th level, *Disclosure*.
@@ -718,50 +720,147 @@ The player has to find a way to unlock the door to reach the Cave:
 3. Overcharge the hydraulic system using the valves. The water pressure increases, allowing the door to receive much more energy.
 4. Open the door. The water pressure is so high that the door will quickly open, destroying the roots blocking it.
 
+<div style="page-break-after: always;"></div>
+
 # 5. Gameplay considerations
 
-Skill chart, combat system, rewards,
+Skill chart, combat system, rewards.
+
+<div style="page-break-after: always;"></div>
 
 # 6. Assets
 
-## 6.1. Weapons
+## 6.1. Ability scores and stats
 
-### 6.1.1. Dual element gun
+This section presents the ability scores of each character and creature in the level, among with their combat stats.
+
+### 6.1.1. Clara
+
+| Ability        | Score | Modifier |
+| :------------- | :---- | :------- |
+| *Strength*     | 8     | -1       |
+| *Dexterity*    | 14    | +2       |
+| *Consitution*  | 10    | 0        |
+| *Intelligence* | 16    | +3       |
+| *Wisdom*       | 11    | 0        |
+| *Charisma*     | 13    | +1       |
+
+| **Stat**                       | **Value** |
+| :----------------------------- | :-------- |
+| *Armor Class (AC)*             | 8         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 20        |
+
+**Combat weapon used**: <u>Dual element gun</u>.
+
+**Skills**:
+
+- *Taekwondo*: Clara has been learning the martial art after teaching in the school. She has also helped some of her students in learning it. Her barehanded attacks' damage benefits from *Dexterity* modifier.
+- *Fencing*: During her time with the Doctor, Clara learned self-defence skills like fencing. Thanks to Me that repaired the <u>Dual element gun</u>, Clara can use it as a rapier due to its shape and manageability.
+- *Highlight useful items*: Clara is smart and curious about the surroundings, she can highlight items around her.
+- *Who needs to breathe?!*: After being saved from her death by the Doctor, Clara became functionally immortal. She lost all physical qualities such as breathing, a pulse and even ageing, being stuck "between one heartbeat and the next".
+
+### 6.1.2. Me (Ashildr)
+
+| Ability        | Score | Modifier |
+| :------------- | :---- | :------- |
+| *Strength*     | 12    | +1       |
+| *Dexterity*    | 17    | +3       |
+| *Consitution*  | 14    | +2       |
+| *Intelligence* | 10    | 0        |
+| *Wisdom*       | 11    | 0        |
+| *Charisma*     | 14    | +2       |
+
+| **Stat**                       | **Value** |
+| :----------------------------- | :-------- |
+| *Armor Class (AC)*             | 5         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 30        |
+
+**Combat weapons used:** <u>Daggers</u>, <u>Strong Branch</u>.
+
+**Skills**:
+
+- *Combat Expert*: Thousands and thousands of years granted Me a formidable combat expertise. She can fight with any kind of weapon or everything that can be used as a weapon.
+  - <u>Provoke</u>: attracts enemy attention making Me its priority target.
+- *Picklocking/Hacking skills*: Me has been a thief during a period of her life. She learned picklocking skills and even hacking skills.
+- *Tech knowledge*: Me has lived until the end of the Universe, thus she had the possibility to see the technological progress until its end.
+- *Health regeneration*: Me is a human-Mire hybrid, she was resurrected by the Doctor altering a Mire repair kit to fix human physiology knowing that she would continually be fixed, thus losing the "ability" to die. She has continous health regeneration, upon reaching 0 HP, Me will enter an inactivity phase, where she will regenerate to full health.
+
+### 6.1.3. Max
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 9     | -1       |
+| *Dexterity*    | 12    | +1       |
+| *Consitution*  | 12    | +1       |
+| *Intelligence* | 16    | +3       |
+| *Wisdom*       | 15    | +2       |
+| *Charisma*     | 8     | -1       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 6         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 25        |
+
+**Combat weapons used:** <u>Chemical Dart Gun</u>.
+
+**Abilities**:
+
+- *Science is life*: Thanks to his laboratory and scientific knowledge, Max can easily detect scientific items, highlighting them. Besides, he can suggest paths inside the laboratory complex.
+- *Green Thumb*:  Max's studies about the plants allow him to find weak spots on different kind of plants. Thanks to his plant knowledge he can provide useful advices.
+- *Advanced scientific rank*:  Laboratories' areas are hierachically divided. Max has access to specific areas in the laboratories.
+
+## 6.2 Weapons
+
+### 6.2.1. Dual element gun
 
 ![LDD_DualElementGun](img\LDD_DualElementGun.jpg)
 
-It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara. This robot was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or ice with a moderate waiting time between switching to an element or another. (High intelligence and dexterity is needed for this weapon).
+It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara. This robot was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or frost with a moderate waiting time between switching to an element or another.
 
-**Damage:** 1d6, no damage type.
+**Basic attack damage:** 1d6, *piercing* damage type influenced by *Dexterity* modifier.
 
 **Skills related:**
 
-- *Fire stream:* 2d8, *fire* damage type.
-- *Hail:* 2d8, *frost* damage type.
+- <u>Fire stream</u>: 
+  - 2d4, *fire* damage type influenced by *Intelligence* modifier.
+  - *Dexterity* roll needed for *Saving Throw*, totally avoiding the damage.
+  - 1 turn *cooldown* shared with <u>Frost Stream</u>.
+- <u>Frost stream</u>: 
+  - 2d4, *frost* damage type influenced by *Intelligence* modifier.
+  - *Constitution* roll needed for *Saving Throw*, halving the damage taken.
+  - 1 turn *cooldown* shared with <u>Fire Stream</u>.
 
-### 6.1.2. Daggers
+### 6.2.2. Daggers
 
-Daggers used by Me, they deal *slashing* damage type.
+Daggers used by scientists to cut particularly tough plants, they deal *slashing* damage type influenced by *Dexterity* modifier. **Damage:** 2d4.
 
-**Damage:** 2d6.
+### 6.2.3. Strong Branch
 
-### 6.1.3. Pipe
+A branch belonged to some kind of a very sturdy tree with enough manageability to be used as a weapon, it deals *bludgeoning* damage type influenced by *Strength* modifier. **Damage:** 1d8.
 
-Broken pipe used by Me, it deals *bludgeoning* damage type.
+### 6.2.4. Chemical Dart Gun
 
-**Damage:** 1d8.
+![LDD_ChemicalDartGun](img\LDD_ChemicalDartGun.jpg)
 
-### 6.1.4. Mini Explosive Flasks
+A gun used by advanced scientists, it shoots darts that can be filled with chemical compounds.
 
-Explosive flasks made by Max, they deal *area of damage* type.
+**Skills related:**
 
-**Damage:** 1d4.
+- <u>Cheap Dart (Basic attack):</u> 1d6, no damage type influenced by *Dexterity* modifier.
+- <u>Explosive Dart:</u>
+  - 1d4, *area of damage* effect, *fire* damage type influenced by *Intelligence* modifier.
+  - *Dexterity* roll needed for *Saving Throw*, totally avoiding damage.
+  - 1 turn *cooldown*.
+- <u>Poisonous Dart:</u>
+  - 1d4, no damage type influenced by *Dexterity* modifier, dealt in the turn it is used.
+  - 1d6, no damage type influenced by *Intelligence* modifier, dealt in the next enemy turn.
+  - *Constitution* roll for *Saving Throw* in the enemy turn, halving the damage taken.
+  - 1 turn *cooldown*.
 
-### 6.1.5. Corrosive Flasks
-
-Corrosive flasks made by Max, they deal a *two-time* damage one time in Max's turn, one time in the Enemy turn.
-
-**Damage:** 1d4 + 1d6.
+<div style="page-break-after: always;"></div>
 
 # 7. Artificial intelligence
 
@@ -777,9 +876,206 @@ Corrosive flasks made by Max, they deal a *two-time* damage one time in Max's tu
 
 ![LDD_FireFlowerFSA](img\LDD_FireFlowerFSA.png)
 
+<div style="page-break-after: always;"></div>
+
 # 8. Fight outcomes analysis
 
-To be completed.
+## 8.1. VS Treant
+
+### 1st Turn (Player's Turn):
+
+- Clara (<u>Fire Stream</u>): $((E[2d4]+3)*1.2)*(1-P(15+3 on 1d20)) = 9.6 * 0.85 = 8.16$
+- Me (<u>Daggers</u>): $(E[2d4]+3)*P(10-8 on 1d20) = 8 * 0.95 = 6.8​$
+- Max (<u>Poisonous Dart</u>): $(E[1d4]+1)*P(10-8 on 1d20) = 3.5 * 0.95 = 3.325$
+
+**Expected group damage:** 18.285
+
+**Treant's HP:** 46.715
+
+### 2nd Turn (Treant's Turn):
+
+- <u>Poisonous Dart:</u> $(E[1d6]+3)*(1-P(16-3 on 1d20)) + ((E[1d6]+3)/2)*P(16-3 on 1d20) = (6.5 * 0.6) + (3.25*0.4) = 5.2$
+- Treant attacking Me: $(E[4d4]+3)*P(10-5 on 1d20) = 13 * 0.8 = 10.4​$
+- <u>Stun Roll</u> on Me: $P(8 on 1d10) = 0.3​$
+
+**Me's HP:** 19.6
+
+**Clara's HP:** 20
+
+**Max' HP:** 25
+
+**Treant's HP:** 41.515
+
+### 3rd Turn (Player's Turn):
+
+- Clara (<u>Basic attack</u>): $(E[1d6]+2)*P(10-8 on 1d20) = 5.5 * 0.95 = 5.225$
+- Me (<u>Daggers</u>): $(E[2d4]+3)*P(10-8 on 1d20)*(1-P(8 on 1d10) = 8 * 0.95 * 0.7 = 4.76​$
+- Max (<u>Dart</u>): $(E[1d6]+1)*P(10-8 on 1d20) = 4.5 * 0.95 = 4.275$
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 14.26.
+
+**Treant's HP:** 27.255.
+
+**Me's HP:** 21.6.
+
+### 4th Turn (Treant's Turn):
+
+- Treant attacking Me: $(E[4d4]+3)*P(10-5 on 1d20) = 13 * 0.8 = 10.4​$
+- <u>Stun Roll</u> on Me: $P(8 on 1d10) = 0.3​$
+
+**Me's HP:** 11.2.
+
+**Clara's HP:** 20.
+
+**Max' HP:** 25.
+
+### 5th Turn (Player's Turn):
+
+- Clara (<u>Fire Stream</u>): $((E[2d4]+3)*1.2)*(1-P(15+3 on 1d20)) = 9.6 * 0.85 = 8.16$
+- Me (<u>Daggers</u>): $(E[2d4]+3)*P(10-8 on 1d20)*(1-P(8 on 1d10) = 8 * 0.95 * 0.7 = 4.76​$
+- Max (<u>Poisonous Dart</u>): $(E[1d4]+1)*P(10-8 on 1d20) = 3.5 * 0.95 = 3.325$
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 16.245 (21.445 if Poisonous Dart is not resisted on next turn).
+
+**Treant's HP:** 11.01.
+
+**Me's HP:** 13.2.
+
+### 6th Turn (Treant Turn):
+
+- <u>Poisonous Dart</u>: $(E[1d6]+3)*(1-P(16-3 on 1d20)) + ((E[1d6]+3)/2)*P(16-3 on 1d20) ]/2 = (6.5 * 0.6) + (3.25*0.4) = 5.2$
+- Treant attacking Me: $(E[4d4]+3)*P(10-5 on 1d20) = 13 * 0.8 = 10.4​$
+- <u>Stun Roll</u> on Me: $P(8 on 1d10) = 0.3​$
+
+**Me's HP:** 2.8.
+
+**Clara's HP:** 20.
+
+**Max' HP:** 13.3.
+
+**Treant's HP:** 5.81.
+
+### 7th Turn (Player Turn):
+
+- Clara (Basic attack): $(E[1d6]+2)*P(10-8 on 1d20) = 5.5 * 0.95 = 5.225$
+- Me (<u>Daggers</u>): $(E[2d4]+3)*P(10-8 on 1d20)*(1-P(8 on 1d10) = 8 * 0.95 * 0.7 = 4.76​$
+- Max (Dart): $(E[1d6]+1)*P(10-8 on 1d20)*(1-P(8 on 1d10) = 4.5 * 0.95 * 0.7 = 2.992$
+
+**Expected group damage:** 8.217.
+
+**Treant's HP:** 0.
+
+### The player has won the fight!
+
+## 8.2. VS A group of 4 Elevines
+
+### 1st Turn (Player's Turn):
+
+- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
+- Me (<u>Daggers</u>): $((E[2d4]+2)*1.2)*P(12-5 on 1d20) = 9.6 * 0.7 = 6.72​$
+- Max (<u>Explosive Dart</u>, damage to each enemy): $(E[1d4]+3)*(1-P(16-3 on 1d20)) = 5.5 * 0.6 = 3.3$
+- *Electric* Damage on Me (she used a <u>conductive weapon</u>): $E[1d4] = 2.5​$
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 16.42 to the target Elevine, 3.3 to each other Elevine.
+
+**Elevine 1's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
+
+**Elevines 2, 3, 4 HP:** 6.7.
+
+**Me's HP:** 26.
+
+**Clara's HP:** 16.5.
+
+**Max' HP:** 21.5.
+
+### 2nd Turn (Elevines' Turn):
+
+- Elevine 2 attacking Clara: $(E[3d4]-2)*P(10-8 on 1d20) = 5.5 * 0.95 = 5.225$
+- Elevine 3 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
+- Elevine 4 attacking Max: $(E[3d4]-2)*P(10-6 on 1d20) = 5.5 * 0.85 = 4.675$
+
+**Me's HP:** 21.6.
+
+**Clara's HP:** 11.275.
+
+**Max' HP:** 16.825.
+
+### 3st Turn (Player's Turn):
+
+- Clara (<u>Basic attack</u>): $(E[1d6]+2)*P(12-5 on 1d20) = 5.5 * 0.7 = 3.85$
+- Me (<u>Wooden Club</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
+- Max (<u>Dart</u>): $(E[1d6]+1)*P(12-5 on 1d20) = 4.5 * 0.7 = 3.15$
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 11.55 to the target Elevine.
+
+**Elevine 2's HP (Target): **0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
+
+**Elevines 3, 4 HP:** 6.7.
+
+**Me's HP:** 20.01.
+
+**Clara's HP:** 7.775.
+
+**Max' HP:** 13.325.
+
+### 4th Turn (Elevines' Turn):
+
+- Elevine 3 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
+- Elevine 4 attacking Max : $(E[3d4]-2)*P(10-6 on 1d20) = 5.5 * 0.85 = 4.675$
+
+**Me's HP:** 15.61.
+
+**Clara's HP:** 7.775.
+
+**Max' HP:** 8.65.
+
+### 5th Turn (Player's Turn):
+
+- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
+- Me (<u>Provoke</u> on Elevine 4).
+- Max (<u>Explosive Dart</u>, damage to each enemy): $(E[1d4]+3)*(1-P(16-3 on 1d20)) = 5.5 * 0.6 = 3.3$
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 9.7 to the target Elevine, 3.3 to each other Elevine.
+
+**Elevine 3's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
+
+**Elevine 4's HP:** 3.4.
+
+**Me's HP:** 14.11.
+
+**Clara's HP:** 4.275.
+
+**Max' HP:** 5.15.
+
+### 6th Turn (Elevine's Turn):
+
+- Elevine 4 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
+
+**Me's HP:** 9.71.
+
+**Clara's HP:** 4.275.
+
+**Max' HP: **5.15.
+
+### 7th Turn (Player's Turn):
+
+- Clara (<u>Basic attack</u>): $(E[1d6]+2)*P(12-5 on 1d20) = 5.5 * 0.7 = 3.85$
+- Me (<u>Wooden Club</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
+- Max' <u>Fytoprolipser</u> on Elevine 4, <u>Electric Discharge</u> disabled.
+- Me's <u>Regeneration</u>, she recovers 2 HP.
+
+**Expected group damage:** 8.4 to the target Elevine.
+
+**Elevine 4's HP (Target):** 0.
+
+### The Player has won the fight!
+
+<div style="page-break-after: always;"></div>
 
 # A. Artwork & references
 
