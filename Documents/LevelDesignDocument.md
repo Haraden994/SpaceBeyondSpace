@@ -1,4 +1,4 @@
-# Rigmarole DevTeam
+	# Rigmarole DevTeam
 
 
 
@@ -57,9 +57,13 @@
 | Giorgio Liggio  | 06/01/2018 | Updated level goals.                     |  0.5.2  |
 | Alessio Quercia | 07/01/2018 | Added characters: Max, Yok and The Primordial. |   0.6   |
 | Andrea Salamone | 08/01/2018 | Completed the enemies section.           |   0.7   |
-| Giorgio Liggio | 09/01/2018 | Branch merging #1.                          |   0.8   |
-| Alessio Quercia | 09/01/2018 | Added level puzzles.                          |  0.8.1  |
-| Giorgio Liggio | 14/01/2018 | Branch merging #2.                          |  0.8.5  |
+| Giorgio Liggio  | 09/01/2018 | Branch merging #1.                       |   0.8   |
+| Alessio Quercia | 09/01/2018 | Added level puzzles.                     |  0.8.1  |
+| Andrea Salamone | 13/01/2018 | Added Characters' stats and Weapons.     |  0.8.2  |
+| Giorgio Liggio  | 14/01/2018 | Branch merging #2.                       |  0.8.5  |
+| Andrea Salamone | 14/01/2018 | Enemies moved to the assets section and got more detailed. |  0.8.6  |
+| Alessio Quercia | 16/01/2018 | Added rewards, checkpoints, victory/defeat conditions, game camera description, game mechanics and characters' audio references. Remade fight outcomes, skills and enemies charts. |  0.8.7  |
+| Alessio Quercia | 22/01/2018 | Added characters' in game dimentions. |  0.8.8  |
 
 <div style="page-break-after: always;"></div>
 
@@ -123,7 +127,7 @@ Subterranean quarries and caves can be found in the planet strata. One is linked
 
 ### 2.3.1. Main characters
 
-The following are the main relevant characters the player will meet and interact with throughout the whole game, including both goodies and baddies.
+The following are the main relevant characters the player interact with throughout the whole game, including both goodies and baddies.
 
 #### 2.3.1.1. Clara Oswald (The Impossible Girl)
 
@@ -140,21 +144,6 @@ The following are the main relevant characters the player will meet and interact
 **Archetype**: Science Hero, Rebellious Spirit.
 
 **Role**: Protagonist.
-
-
-**Weapons**:
-- *Dual element gun*:
-It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara. This robot was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or ice with a moderate waiting time between switching to an element or another. (High intelligence and dexterity is needed for this weapon).
-
-**Abilities**:
-- *Taekwondo*:
-Clara has been learning the martial art after teaching in the school. She has also helped some of her students in learning it.
-- *Fencing skills*:
-Clara, during her time with the Doctor, learned self-defence skills and managed to use cold weapons, like swords, to show her fencing skills.
-- *Highlight useful items*:
-Thanks to her high intelligence stats, Clara can highlight useful items in a certain range around her.
-- *No need to breathe*:
-After being temporarily saved from her death by the Doctor, Clara became functionally immortal. Clara's heart is in a frozen state and stopped pumping blood inside her body and to her brain. Thus, Clara has no need to breathe. She is in a stasis state.
 
 **Short Biography**:
 
@@ -177,21 +166,6 @@ After the Doctor unsuccessfully tried to save her from her death, wiping his mem
 
 **Role**: Protagonist, Badass.
 
-
-**Weapons**:
-- Any weapon:
-During her life, Me managed to use any kind of weapon, from the cold ones to the firarms. Thus she might use any weapon she finds in her way.
-
-**Abilities**:
-- *Fighting skills*:
-Me has learned to fight to survive. She can fight with any kind of weapon and even with her bare hands.
-- *Picklocking/Hacking skills*:
-Me has been a thief during a period of her life. She learned picklocking skills and even some hacking skills to gain access to computer protected by passwords and some doors protected by electric systems.
-- *Tech knowledge*:
-Me has lived until the end of the Universe, thus she had the possibility to see the technological progress until its end.
-- *Health regeneration*:
-Me has been saved by the Doctor, who used the Mire technology on her, transforming her into an immortal being. Thanks to this technology, she has continous health regeneration. When she reaches 1 HP, she enters an inactivity phase, where she will regenerate to full health.
-
 **Short Biography**:
 
 Me is a Viking girl encountered by the Twelfth Doctor and Clara Oswald. After a battle against the Mire, she died, but the Doctor resurrected her using a Mire repair kit, transforming her into an immortal being. During her time, she asked several times to the Doctor to bring her with him as a companion during his travels in time and space, but the Doctor refused each time. For this reason, she became bitter to the Doctor and was convinced from the Time Lords to trick the Doctor into being transported inside his confession dial. Things went differently from what she has planned and Clara died. She didn't mean to kill Clara and apologized to the Doctor, who warned her it would be a good idea for her to stay out of his way.
@@ -213,25 +187,6 @@ Me survived until the end of the Universe, assisting to its death into a bubble 
 
 **Role**: Supporting Protagonist, Cloud Cuckoolander.
 
-
-
-**Weapons**:
-- *Chemical kit*: 
-	- Damaging compounds.
-	- Impairing substances.
-- *Fytoprolipser*: 
-A serum proudly made by Max himself. It has different effects depending on the plant on which it is used: 
-	- Weakening a plant.
-	- Inhibit some plant properties.
-
-**Abilities**:
-- *Highlight scientific items*: 
-Thanks to his laboratory and scientific knowledge, Max can easily detect scientific items, highlighting them. Besides, he can suggest paths inside the laboratory complex.
-- *Identify weak spots*: 
-Max's studies about the plants allow him to find weak spots on different kind of plants. Thanks to his plant knowledge he can provide useful advices.
-- *Advanced scientist badge*: 
-Laboratories' areas are hierachically divided. This badge allows Max to enter specific scientific areas in the laboratories (NOT each area of the laboratories).
-
 **Short Biography**: 
 
 Max is a member of the research team sent on the planet to determine wheater or not the planet could be a possible human colony. His studies are mainly focused on the planet vegetation, indeed he is a plant expert. When the earthquake happened, Max was caught by surprise by some plants and got trapped by some roots growing from the floor. Once saved by Clara and Me, Max initially decided to escape, but then was convinced by Me to fight alongside them to understand why the plants began attacking the humans and to save the human beings on the planet from an imminent catastrophe.
@@ -252,14 +207,9 @@ Max is a member of the research team sent on the planet to determine wheater or 
 
 **Role**: Antagonist, Face Heel Turn.
 
-
-**Abilities**:
-- *Perfect form (final levels)*: 
-Yok is a brilliant scientist, a genius. His anatomy and biology studies allowed him to make several experiments on the humans in order to create a new form of being, an improvement of the human race, combining together the best traits from both the plants and the humans. The mutants created by Yok are not perfect, they presents several flaws, but his last untested composite is much more powerful than the precedent ones. Having no choices, Yok tested his last composite on himself, transforming himself into the perfect mutant. As a mutant, Yok can mutate the form of his arms, thanks to the plants' traits, and make some special attacks.
-
 **Short Biography**:
 
-Yok is the leader of the research team sent on the planet to study its structure and liveability. After some studies, he found a way to mix up traits from plants and humans in order to create a mutant. Over time, he developed his plan to create the *Perfect form*. He kept his plan and experiments secret to most of the scientists on the planet, but in the end Clara, Me and Max find it out and try to stop him. Having no choices, Yok transform himself into a mutant using his last untested composite, reaching the *Perfect form*.
+Yok is the leader of the research team sent on the planet to study its structure and liveability. After some studies, he found a way to mix up traits from plants and humans, he made several experiments on the humans in order to create a new form of being, an improvement of the human race, combining together the best traits from both the plants and the humans. The mutants created by Yok are not perfect, they presents several flaws, but his last untested composite is much more powerful than the precedent ones allowing him to reach the *Perfect form*. He kept his plan and experiments secret to most of the scientists on the planet, but in the end Clara, Me and Max find it out and try to stop him. Having no choices, Yok transform himself into a mutant using his last untested composite, reaching the *Perfect form*.
 
 #### 2.3.1.5. The Primordial
 
@@ -277,116 +227,9 @@ Yok is the leader of the research team sent on the planet to study its structure
 
 **Role**: Heel Face Turn.
 
-
-**Abilities**:
-- *"Grow, plants!"*: 
-Focusing his energies, The Primordial can spawn different types of plants, roots and flowers. He can manipulate the planet's vegetation.
-
 **Short Biography**:
 
-A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid. After some time, the seed reached a form which allowed it to live as the planetoid core, letting itself grow as plants all over the surface. Once the humans landed on him, he decided to live in peace with them, because they also seemed to be peaceful and respectful towards him. When the humans started mistreating him he began to react passively and when Yok penetrated his core, The Primordial started to attack humans actively, manipulating the vegetation.
-
-### 2.3.2. Enemies
-
-These are the enemies the player must face during the game.
-
-#### 2.3.2.1. Liannoyer
-
-![Liannoyer](img/LDD_Liannoyer.jpg)
-
-A Liannoyer is the most common plant creature, half the height of the PCs, that can be found in the laboratory complex after the earthquake. It senses humans through ground vibrations and attacks them by using his thorned liane as whips (*melee* attacks). They are weak to *slashing* damage. Max's serum (*Fytoprolipser*) is uneffective on these plants.
-
-**Stats:**
-
-- *Strength:* 14 (+2)
-- *Dexterity:* 11 (+0)
-- *Constitution:* 8 (-1)
-- *Intelligence:* 2 (-4)
-- *Wisdom:* 11 (+0)
-
-#### 2.3.2.2. Needler
-
-![Needler](img/LDD_Needler.jpg)
-
-A Needler is a lethal plant creature, 3/4 the height of Me, it is often found in groups of other creatures. It sense humans through body temperature and attack on sight. Its attacks are *ranged* barrages of sharp needles. They are weak to *fire* and *slashing* damages. Max's serum (*Fytoprolipser*) is uneffective on these plants.
-
-**Stats:**
-
-- *Strength:* 8 (-1)
-- *Dexterity:* 15 (+3)
-- *Constitution:* 9 (-1)
-- *Intelligence:* 5 (-3)
-- *Wisdom:* 13 (+1)
-
-#### 2.3.2.3. Treant
-
-![Treant](img/LDD_Treant.jpg)
-
-A Treant is a bulky, wooden plant creature, nearly the same height of the PCs. It is apparently innocue since it can be found as an unmoving obstacle in the level. It can be fought when enraged, it's attacks are *melee*: body slams and stomps that can *stun* the PCs. *Fire* and *bludgeoning* damages are useful against it. Max's serum (*Fytoprolipser*) is needed to let a Treant enrage and move from its position.
-
-**Stats:**
-
-- *Strength:* 17 (+3)
-- *Dexterity:* 5 (-3)
-- *Constitution:* 16 (+3)
-- *Intelligence:* 3 (-4)
-- *Wisdom:* 9 (-1)
-
-#### 2.3.2.4. Elevine
-
-![LDD_Liannoyer](img/LDD_Elevine.jpg)
-
-An Elevine is a small plant creature similar to a vine mass that can be electrically charged, storing energy. Elevines usually crawl on the floor and are found in groups. They attack by swinging their electrical vines (*melee* attacks). Their frail body is weak to *slashing* damage but using *conductive* weapons can damage the user. Upon dying they discharge their bodies, causing a *ranged* electrical damage to each PC (*AoE*) that can *paralyze*. Max's serum (*Fytoprolipser*) is useful to inhibit their discharging ability and to keep them electrically charged after their defeat, Elevines defeated in this way can be used as electric source to power some devices.
-
-**Stats:**
-
-- *Strength:* 5 (-3)
-- *Dexterity:* 16 (+3)
-- *Constitution:* 7 (-2)
-- *Intelligence:* 9 (-1)
-- *Wisdom:* 14 (+2)
-
-#### 2.3.2.5. Thunder Blossom 
-
-![LDD_Liannoyer](img/LDD_ThunderBlossom.jpg)
-
-The Thunder Blossom is a dangerous plant creature, nearly the same height of the PCs. These creatures are attracted by big power sources, from them they can accumulate big electrical charges in their bulb becoming more dangerous and powerful. They attack humans with fast, electrical charged lashes dealing heavy *melee* damage. When in danger they emit condensed pollen clouds that generate lightnings hitting randomly the surroundings, these clouds can be considered as enemies and are nullificated by dealing *frost* damage to them. Using *conductive* weapons can damage the user. Max's serum (*Fytoprolipser*) is useful to increase the resistivity of the creature, dealing damage each turn and weakening its damage output.
-
-**Stats:**
-
-- *Strength:* 17 (+3)
-- *Dexterity:* 15 (+2)
-- *Constitution:* 13 (+1)
-- *Intelligence:* 9 (-1)
-- *Wisdom:* 14 (+2)
-
-**Electric Generator variation**: A Thunder Blossom is found in the second underground section of the laboratory, grasping the floor's generator, shutting off every technological system in the zone. This variation of the creature can be uselessly fought, it receives no damage because of his supercharged electrical body and deals slightly more damage to the PCs. The only way to defeat it is by overcharging the main electrical generator by activating all of the auxiliary ones found in other rooms, this will involve him exploding due to it's incapability to contain so much energy.
-
-#### 2.3.2.6. Fire Flower
-
-![LDD_Liannoyer](img/LDD_FireFlower.jpg)
-
-A Fire Flower is an interesting and potentially deadly plant creature, half the height of the PCs. It can be found in the underground cave. Fire Flowers sense humans by ultrasounds and throw *scorching* embers to them (*ranged* attacks), causing a *damage over time* effect. When defeated by *slashing* damage, two brand new Fire Flowers will generate, this ability does not work if defeated by *bludgeoning* damage. Max's serum (*Fytoprolipser*) can be used to lower the temperature of the creature, making it weak to *frost* damage, if a Fire Flower is defeated by this type of damage it will not generate duplicates.
-
-**Stats:**
-
-- *Strength:* 5 (-3)
-- *Dexterity:* 16 (+3)
-- *Constitution:* 11 (0)
-- *Intelligence:* 10 (0)
-- *Wisdom:* 12 (+1)
-
-#### 2.3.2.7. Spore Sprayer
-
-![LDD_Liannoyer](img/LDD_SporeSprayer.jpg)
-
-Spore Sprayers are plant creatures that cannot be fought due to their poisonous spores released in the area, killing every living being that breathes the spores. They can be defeated by preparing a chemical serum made with its own spores. Clara doesn't need to breathe, so she can freely move inside the contaminated area and defeat the plant.
-
-#### 2.3.2.8. Overseers
-
-![LDD_Liannoyer](img/LDD_Overseer.jpg)
-
-The Overseers are non fighting plant creatures looking like roots out of the ground, found in the cave. The player must pay attention to their similarity with normal roots, when they are touched, they spawn many plant creatures to defend the cave. If the player manages to defeat each of the plant spawned by an Overseer he turns into normal roots.
+A long time ago a sentient plant seed started to attract solid matter to itself. The seed grew up, attracting more and more solid matter and transforming itself into a planetoid. After some time, the seed reached a form which allowed it to live as the planetoid core, letting itself grow as plants all over the surface. Once the humans landed on him, he decided to live in peace with them, because they also seemed to be peaceful and respectful towards him. When the humans started mistreating him he began to react passively and when Yok penetrated his core, The Primordial started to attack humans actively, manipulating the vegetation and creating plant creatures.
 
 ## 2.4. Background
 
@@ -492,6 +335,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Get out of the TARDIS (interaction tutorial)
 - Find the switch to open the hangar doors
 
+**Reward:** Learning the basic skills.
+
 ### 2.9.2. Level 2 - *Daybreak*
 
 **Level type:** normal
@@ -503,6 +348,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Get your equipment
 - Reach the railway
 
+**Reward:** Obtaining the scientific equipment.
+
 ### 2.9.3. Level 3 - *Portent*
 
 **Level type:** HUB
@@ -513,6 +360,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Visit the main facilities
 - Follow the rescue team
 - Talk to the medic
+
+**Reward:** Discovering information about the colony.
 
 ### 2.9.4. Level 4 - *Contingency*
 
@@ -526,6 +375,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Access the terminal
 - Get out for evacuation
 
+**Reward:** Discovering information about the plants.
+
 ### 2.9.5. Level 5 - *Backlash*
 
 **Level type:** normal
@@ -537,6 +388,10 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Contain the anomaly
 - Fight the plant minions
 - Escape the facility
+
+**Rewards:** 
+- Obtaining the *Dual element gun*.
+- Obtaining the *Strong branch*.
 
 ### 2.9.6. Level 6 - *Disclosure*
 
@@ -550,6 +405,13 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Break open the cave entry
 - Reach the end of the cave
 
+**Rewards:** 
+- Discovering some information about Yok and his plan.
+- Discovering information about the planet's core and the plants.
+- Obtaining the *Daggers*.
+- Obtaining a new party member, Max.
+- Obtaining the *Fytoprolipser*.
+
 ### 2.9.7. Level 7 - *Deception*
 
 **Level type:** normal
@@ -562,6 +424,10 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Survive the mutants
 - Escape the area
 
+**Rewards:** 
+- Discovering Yok's plan.
+- Obtaining The Primordial's help.
+
 ### 2.9.8. Level 8 - *Uplift*
 
 **Level type:** normal
@@ -572,6 +438,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Fight back against the monsters
 - Defeat Yok
 - Leave the laboratories
+
+**Reward:** Saving the colony from Yok's evil plan.
 
 <div style="page-break-after: always;"></div>
 
@@ -592,39 +460,40 @@ The scientist stated, by checking on his tablet, that they were in the center of
 They felt the plants hesitate. The plant face say that a man like him did all this, uncovering the final truth. The real enemy is that professor, the seed was the main test subject! ***(10)***
 
 **Enemies Chart**
-The following table shows which enemies the player will encounter in the different areas of the level.
+The following table shows which enemies the player will encounter in the different game's levels.
 
-| Enemy \ Area    | Outside the Laboratory | Laboratory's Ground Floor | Laboratory's Undergrounds | The Cave |
-| ---------------- | :--------------------: | :-----------------------: | :-----------------------: | :------: |
-| Liannoyers       |                        |             X             |             X              |          |
-| Needlers         |                        |             X             |             X              |          |
-| Treant           |                        |             X             |             X              |          |
-| Fire Flower Crew |                        |             X             |             X              |     X    |
-| Spore Sprayer    |                        |             X             |             X              |     X    |
-| Elevines         |                        |                           |             X              |     X    |
-| Thunder Blossom  |                        |                           |             X              |          |
-| Overseer         |                        |                           |                            |     X    |
-| Armored Vines    |                        |                           |             X              |          |
-| Armored Pods     |                        |                           |             X              |          |
+
+| Enemy \ Level   | Advent | Daybreak | Portent | Contingency | Backlash | Disclosure | Deception | Uplift |
+| --------------- | -------| -------- | ------- | :---------: | :------: | :--------: | :-------: | :----: |
+| Liannoyers      |        |          |         |      X      |    X     |      X     |           |        |
+| Needlers        |        |          |         |      X      |    X     |      X     |           |        |
+| Treant          |        |          |         |             |          |      X     |           |        |
+| Fire Flower     |        |          |         |             |    X     |      X     |           |        |
+| Spore Sprayer   |        |          |         |             |    X     |      X     |           |        |
+| Elevines        |        |          |         |             |          |      X     |           |        |
+| Thunder Blossom |        |          |         |             |          |      X     |           |        |
+| Overseer        |        |          |         |             |          |      X     |           |        |
+| Mutants         |        |          |         |             |          |            |     X     |     X  |
 
 
 
 **Skills Chart**
-The following table shows which skills the player will be able to use with the different playable characters: Clara Oswald (C), Ashildr (A), Max (M).
+The following table shows which skills the player will have to use in the different game's levels.
 
-| Skill \ Area    | Outside the Laboratory | Laboratory's Ground Floor | Laboratory's Undergrounds | The Cave |
-| ---------------- | :--------------------: | :-----------------------: | :-----------------------: | :------: |
-| Moving    |              C, A               |             C, A, M             |           C, A, M           |     C, A, M    |
-| Attacking    |              C, A               |             C, A, M            |            C, A, M           |     C, A, M    |
-| Interacting    |             C, A               |            C, A, M             |            C, A, M           |     C, A, M    |
-| Open doors       |                        |          C, A, M          |        C, A, M           | C, A, M  |
-| Pick up items    |         C, A, M        |          C, A, M          |        C, A, M           | C, A, M  |
-| Use weapons      |                        |             C, A          |         C, A           |   C, A   |
-| Use potions  |                            |             M             |             M           |     M    |
-| Picklocking/Hacking |                     |             A             |            A           |     A    |
-| Highlight useful items      |      C      |             C             |             C           |     C    |
-| Highlight scientific items  |             |             M             |             M           |     M    |
-| Fighting with hands    |                  |          C, A             |         C, A           |   C, A   |
+| Skill \ Level              | Advent | Daybreak | Portent | Contingency | Backlash | Disclosure | Deception | Uplift |
+| -------------------------- | ------ | -------- | ------- | :---------: | :------: | :--------: | :-------: | :----: |
+| Moving                     |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
+| Attacking                  |    X   |          |         |     X       |     X    |      X     |     X     |     X  |
+| Interacting                |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
+| Open doors                 |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
+| Pick up items              |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
+| Use weapons                |        |          |         |     X       |     X    |      X     |     X     |     X  |
+| Picklocking                |        |          |         |     X       |     X    |      X     |     X     |        |
+| Hacking                    |        |          |         |     X       |     X    |      X     |     X     |        |
+| Highlight useful items     |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
+| Highlight scientific items |        |          |         |             |          |      X     |     X     |     X  |
+| Use Fytoprolipser          |        |          |         |             |          |      X     |     X     |     X  |
+
 
 ## 3.2. Level diagram
 
@@ -768,15 +637,230 @@ The player has to find a way to unlock the door to reach the Cave:
 
 # 5. Gameplay considerations
 
-Skill chart, combat system, rewards.
+## 5.1. Rewards
+
+Completing the game quests, the player will be rewarded in different ways (see Goal Outlines section): sometimes the player will receive tangible rewards, such as weapons he might use during the game, sometimes he will be paid back with game story's information. Besides, playing the game the player will learn the characters' skills and will be able to test them over enemies, puzzles and obstacles.
+Immersive story and gameplay will implicitly reward the player throughout the game.
+
+## 5.2. Checkpoints
+
+The game will auto-save after completing a quest. Thus, losing during a quest means restarting from the ending of the previous quest.
+The player can restart anytime from the last checkpoint or load a previous one.
+The player will be also able to save the game anytime he wants, except during a fight.
+
+## 5.3. Victory/Defeat conditions
+
+If one of the party members controlled by the player dies (reaching 0 HP), the player will lose the game and will have to restart from his last checkpoint.
+The player will win the game by completing the main quests in the game levels without losing any party member.
+
+## 5.4. Game camera
+
+The game camera is a free camera, meaning that the player might freely move it in any direction, zoom in and out, and completely rotate it.
+The player can also choose to lock the camera on the character he is currently using, meaning that the camera will follow that specific character from above, mantaining the possibility to zoom in and out and to rotate. Locking the camera on a character, the player won't be able to move it in any direction.
+
+## 5.5. Game mechanics
+
+The player will be able to control the main characters in two different modes: *party mode* and *single character mode*. He will be able to switch from a mode to another during the game.
+Using the *party mode* (standard mode), the player will control the main characters as a party. Thus they will move together to the player's chosen positions and make the player's chosen actions.
+The player will also be able to select a character and to use the *single character mode*, controlling that character individually.
+
+## 5.6. Characters' in game dimensions
+
+In game units (*u*) should respect the following proportion: *1 u = 10 cm*.
+Consequently:
+ - *1 cm = 0.1 u*
+ - *1 m = 10 u*.
+
+### 5.6.1. Main characters
+
+Every human character will need the following minimum volume (Width x Depth x Height) to correctly move in the game's level: *(1 m) x (1 m) x (2 m)*.
+
+
+#### 5.6.1.1. Clara Oswald
+
+**Model info:**
+ - Height: 1.58 m.
+ - Body: Slim.
+
+**Hitbox:**
+ - Height: 1.6 m.
+ - Width: 0.6 m.
+ - Depth: 0.5 m.
+
+#### 5.6.1.2. Me (Ashildr)
+
+**Model info:**
+ - Height: 1.55 m.
+ - Body: Slim.
+
+**Hitbox:**
+ - Height: 1.6 m.
+ - Width: 0.55 m.
+ - Depth: 0.44 m.
+
+#### 5.6.1.3. Max
+
+**Model info:**
+ - Height: 1.77 m.
+ - Body: Regular.
+
+**Hitbox:**
+ - Height: 1.8 m.
+ - Width: 0.7 m.
+ - Depth: 0.55 m.
+
+#### 5.6.1.4. The Primordial
+
+**Model info:**
+ - Height: 30 m.
+ - Width: 30 m.
+ - Depth: 30 m.
+
+### 5.6.2. Enemies
+
+#### 5.6.2.1. Liannoyer
+
+**Minimum volume**
+ - Height: 1.1 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.65 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.7 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 5.6.2.2. Needler
+
+**Minimum volume**
+ - Height: 1.3 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.85 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.9 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 5.6.2.3. Treant
+
+**Minimum volume**
+ - Height: 2.5 m.
+ - Width: 2.1 m.
+ - Depth: 2.3 m.
+
+**Model info:**
+ - Height: 3 m.
+ - Width: 2.6 m.
+ - Depth: 2.8 m.
+
+**Hitbox:**
+ - Height: 2.55 m.
+ - Width: 2.15 m.
+ - Depth: 2.35 m.
+
+#### 5.6.2.4. Fire Flower
+
+**Minimum volume**
+ - Height: 1.2 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.7 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.75 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 5.6.2.5. Spore Sprayer
+
+**Minimum volume**
+ - Height: 2.2 m.
+ - Width: 1.2 m.
+ - Depth: 1.2 m.
+
+**Model info:**
+ - Height: 1.7 m.
+ - Width: 0.75 m.
+ - Depth: 0.75 m.
+
+**Hitbox:**
+ - Height: 1.75 m.
+ - Width: 0.8 m.
+ - Depth: 0.8 m.
+
+#### 5.6.2.6. Elevine
+
+**Minimum volume**
+ - Height: 0.9 m.
+ - Width: 0.9 m.
+ - Depth: 1.2 m.
+
+**Model info:**
+ - Height: 0.45 m.
+ - Width: 0.45 m.
+ - Depth: 0.75 m.
+
+**Hitbox:**
+ - Height: 0.5 m.
+ - Width: 0.5 m.
+ - Depth: 0.8 m.
+
+#### 5.6.2.7. Thunder Blossom
+
+**Minimum volume**
+ - Height: 2.5 m.
+ - Width: 2.9 m.
+ - Depth: 2.9 m.
+
+**Model info:**
+ - Height: 2 m.
+ - Width: 2.4 m.
+ - Depth: 2.4 m.
+
+**Hitbox:**
+ - Height: 2.05 m.
+ - Width: 2.45 m.
+ - Depth: 2.45 m.
+
+#### 5.6.2.8. Overseer
+
+**Minimum volume**
+ - Height: 0.3 m.
+ - Width: 0.8 m.
+ - Depth: 0.8 m.
+
+**Model info:**
+ - Height: 0.15 m.
+ - Width: 0.65 m.
+ - Depth: 0.65 m.
+
+**Hitbox:**
+ - Height: 0.2 m.
+ - Width: 0.7 m.
+ - Depth: 0.7 m.
 
 <div style="page-break-after: always;"></div>
 
 # 6. Assets
 
-## 6.1. Ability scores and stats
+## 6.1. Characters' gameplay informations
 
-This section presents the ability scores of each character and creature in the level, among with their combat stats.
+This section presents the ability scores of each character in the level, among with their combat stats and skills.
 
 ### 6.1.1. Clara
 
@@ -856,9 +940,181 @@ This section presents the ability scores of each character and creature in the l
 - *Green Thumb*:  Max's studies about the plants allow him to find weak spots on different kind of plants. Thanks to his plant knowledge he can provide useful advices.
 - *Advanced scientific rank*:  Laboratories' areas are hierachically divided. Max has access to specific areas in the laboratories.
 
-## 6.2 Weapons
+##6.2. Enemies' gameplay informations
 
-### 6.2.1. Dual element gun
+This section presents a brief description of the enemies that the player will face trough the level, among with their ability scores, combat stats and skills.
+
+The *Charisma* ability is not relevant for the enemies since they are creatures moved by pure istinct and do not interact in any other way with the player besides of fighting.
+
+### 6.2.1. Liannoyer
+
+![Liannoyer](img/LDD_Liannoyer.jpg)
+
+A Liannoyer is the most common plant creature, half the height of the PCs, that can be found in the laboratory complex after the earthquake. It senses humans through ground vibrations and attacks them by using his thorned liane as whips. They are weak to *slashing* damage (x1.2 on damage received). Max's serum (*Fytoprolipser*) is uneffective on these plants.
+
+Lianannoyers deal *melee* 1d6 damage influenced by *Strength* modifier.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 14    | +2       |
+| *Dexterity*    | 11    | 0        |
+| *Consitution*  | 8     | -1       |
+| *Intelligence* | 2     | -4       |
+| *Wisdom*       | 11    | 0        |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 8         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 20        |
+| *DEX Saving Throw value*       | 17        |
+| *CON Saving Throw value*       | 16        |
+
+### 6.2.2. Needler
+
+![Needler](img/LDD_Needler.jpg)
+
+A Needler is a lethal plant creature, 3/4 the height of Me, it is often found in groups of other creatures. It sense humans through body temperature and attack on sight. Its attacks are barrages of sharp needles. They are weak to *fire* and *slashing* damages (x1.2 on damage received). Max's serum (*Fytoprolipser*) is uneffective on these plants.
+
+Needlers deal *ranged* 2d4 damage influenced by *Dexterity* modifier.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 8     | -1       |
+| *Dexterity*    | 15    | +3       |
+| *Consitution*  | 9     | -1       |
+| *Intelligence* | 5     | -3       |
+| *Wisdom*       | 13    | +1       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 6         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 12        |
+| *DEX Saving Throw value*       | 16        |
+| *CON Saving Throw value*       | 15        |
+
+### 6.2.3. Treant
+
+![Treant](img/LDD_Treant.jpg)
+
+A Treant is a bulky, wooden plant creature, nearly the same height of the PCs. It is apparently innocue since it can be found as an unmoving obstacle in the level. It can be fought when enraged, it's attacks are body slams and stomps that can *stun* the PCs. *Fire* damage is useful against it (x1.2 damage received). Max's serum (*Fytoprolipser*) is needed to let a Treant enrage and move from its position.
+
+Treants deal *melee* 4d4 damage influenced by *Strength* modifier, with a 30% (at least 8 on 1d10) chance of *Stunning* the target.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 17    | +3       |
+| *Dexterity*    | 5     | -3       |
+| *Consitution*  | 16    | +3       |
+| *Intelligence* | 3     | -4       |
+| *Wisdom*       | 9     | -1       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 8         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 65        |
+| *DEX Saving Throw value*       | 15        |
+| *CON Saving Throw value*       | 16        |
+
+### 6.2.4. Elevine
+
+![LDD_Liannoyer](img/LDD_Elevine.jpg)
+
+An Elevine is a small plant creature similar to a vine mass that can be electrically charged, storing energy. Elevines usually crawl on the floor and are found in groups. They attack by swinging their electrical vines. Their frail body is weak to *slashing* damage (x1.2 damage received) but using *conductive* weapons can damage the user. Upon dying they discharge their bodies, causing electrical damage to each PC. Max's serum (*Fytoprolipser*) is useful to inhibit their discharging ability and to keep them electrically charged after their defeat, Elevines defeated in this way can be used as electric source to power some devices.
+
+Elevines deal *melee* 3d4 damage influenced by *Constitution* modifier.
+
+*Electric* 1d4 damage dealt to attackers with *conductive* on hit weapons.
+
+<u>Electric Discharge</u> deals 1d6 damage upon HP reaching 0.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 5     | -3       |
+| *Dexterity*    | 16    | +3       |
+| *Consitution*  | 7     | -2       |
+| *Intelligence* | 9     | -1       |
+| *Wisdom*       | 14    | +2       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 5         |
+| *To Hit Armor Class 0 (THAC0)* | 12        |
+| *Health Points (HP)*           | 10        |
+| *DEX Saving Throw value*       | 16        |
+| *CON Saving Throw value*       | 15        |
+
+### 6.2.5. Thunder Blossom
+
+![LDD_Liannoyer](img/LDD_ThunderBlossom.jpg)
+
+The Thunder Blossom is a dangerous plant creature, nearly the same height of the PCs. These creatures are attracted by big power sources, from them they can accumulate big electrical charges in their bulb becoming more dangerous and powerful. They attack humans with fast, electrical charged lashes dealing heavy damage. When in danger they emit condensed pollen clouds that generate lightnings hitting randomly the surroundings, these clouds can be considered as enemies and are nullificated by dealing *frost* damage to them. Using *conductive* weapons can damage the user. Max's serum (*Fytoprolipser*) is useful to increase the resistivity of the creature, dealing damage each turn and weakening its damage output.
+
+Thunder Blossoms deal 3d4 damage influenced by *Strength* modifier.
+
+<u>Pollen Clouds</u> can be considered as creatures with no HP dealing 1d4 damage influenced by Thunder Blossom's *Constitution* modifier. They are wiped out by any *Frost* damage received and no rolls are needed to hit them. Thunder Blossom spawns a <u>Pollen Cloud</u> every two turns when reaching 40% HP.
+
+*Electric* 1d4 damage dealt to attackers with *conductive* on hit weapons.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 15    | +2       |
+| *Dexterity*    | 15    | +2       |
+| *Consitution*  | 13    | +1       |
+| *Intelligence* | 9     | -1       |
+| *Wisdom*       | 14    | +2       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 7         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 40        |
+| *DEX Saving Throw value*       | 17        |
+| *CON Saving Throw value*       | 16        |
+
+**Electric Generator variation**: A Thunder Blossom is found in the second underground section of the laboratory, grasping the floor's generator, shutting off every technological system in the zone. This variation of the creature can be uselessly fought, it receives no damage because of his supercharged electrical body and deals slightly more damage to the PCs. The only way to defeat it is by overcharging the main electrical generator by activating all of the auxiliary ones found in other rooms, this will involve him exploding due to it's incapability to contain so much energy.
+
+### 6.2.6. Fire Flower
+
+![LDD_Liannoyer](img/LDD_FireFlower.jpg)
+
+A Fire Flower is an interesting and potentially deadly plant creature, half the height of the PCs. It can be found in the underground cave. Fire Flowers sense humans by ultrasounds and throw *scorching* embers to them, causing a *damage over time* effect. When defeated by *slashing* damage, two brand new Fire Flowers will generate, this ability does not work if defeated by *bludgeoning* damage. Max's serum (*Fytoprolipser*) can be used to lower the temperature of the creature, making it weak to *frost* damage (x1.2 damage received), if a Fire Flower is defeated by this type of damage it will not generate duplicates.
+
+Fire Flowers deal 1d4 damage influenced by *Dexterity* modifier, if the attack hits, a *damage over time (DoT)* is applied or refreshed to the target, dealing 1d6 *fire* damage for the next 2 turns. *DoT* reduced to 1d4 if *Fytoprolipser* used on the creature.
+
+| Ability        | Score | Modifier |
+| -------------- | ----- | -------- |
+| *Strength*     | 5     | -3       |
+| *Dexterity*    | 16    | +3       |
+| *Consitution*  | 11    | 0        |
+| *Intelligence* | 10    | 0        |
+| *Wisdom*       | 12    | +1       |
+
+| **Stat**                       | **Value** |
+| ------------------------------ | --------- |
+| *Armor Class (AC)*             | 7         |
+| *To Hit Armor Class 0 (THAC0)* | 10        |
+| *Health Points (HP)*           | 20        |
+| *DEX Saving Throw value*       | 17        |
+| *CON Saving Throw value*       | 16        |
+
+### 6.2.7. Spore Sprayer
+
+![LDD_Liannoyer](img/LDD_SporeSprayer.jpg)
+
+Spore Sprayers are plant creatures that cannot be fought due to their poisonous spores released in the area, killing every living being that breathes the spores. They can be defeated by preparing a chemical serum made with its own spores. Clara doesn't need to breathe, so she can freely move inside the contaminated area and defeat the plant.
+
+### 6.2.8. Overseers
+
+![LDD_Liannoyer](img/LDD_Overseer.jpg)
+
+The Overseers are non fighting plant creatures looking like roots out of the ground, found in the cave. The player must pay attention to their similarity with normal roots, when they are touched, they spawn many plant creatures to defend the cave. If the player manages to defeat each of the plant spawned by an Overseer he turns into normal roots.
+
+## 6.3 Weapons
+
+### 6.3.1. Dual element gun
 
 ![LDD_DualElementGun](img\LDD_DualElementGun.jpg)
 
@@ -877,15 +1133,15 @@ It's a broken part of a robotic arm made by the scientific team which Me made us
   - *Constitution* roll needed for *Saving Throw*, halving the damage taken.
   - 1 turn *cooldown* shared with <u>Fire Stream</u>.
 
-### 6.2.2. Daggers
+### 6.3.2. Daggers
 
-Daggers used by scientists to cut particularly tough plants, they deal *slashing* damage type influenced by *Dexterity* modifier. **Damage:** 2d4.
+Daggers used by scientists to cut particularly tough plants, they deal *slashing* damage type influenced by *Dexterity* modifier. They are *conductive*. **Damage:** 2d4.
 
-### 6.2.3. Strong Branch
+### 6.3.3. Strong Branch
 
-A branch belonged to some kind of a very sturdy tree with enough manageability to be used as a weapon, it deals *bludgeoning* damage type influenced by *Strength* modifier. **Damage:** 1d8.
+A branch belonged to some kind of a very sturdy tree with enough manageability to be used as a weapon, it deals *bludgeoning* damage type influenced by *Strength* modifier. Not *conductive*. **Damage:** 1d8.
 
-### 6.2.4. Chemical Dart Gun
+### 6.3.4. Chemical Dart Gun
 
 ![LDD_ChemicalDartGun](img\LDD_ChemicalDartGun.jpg)
 
@@ -924,7 +1180,19 @@ A gun used by advanced scientists, it shoots darts that can be filled with chemi
 
 # 8. Fight outcomes analysis
 
-## 8.1. VS Treant
+During the fights, the characters' turn depends on their dexterity: the character with the highest dexterity will have the first turn, followed by the one with the second highest dexterity, and so on. The character with the lowest dexterity will have the last turn. After his turn, the cycle will restart from the character with the highest dexterity.
+
+## 8.1. Fight against a Treant
+
+According to the characters' dexterity, the turns will be dispatched in the following order:
+1. Me's dexterity: 17.
+2. Clara's dexterity: 14.
+3. Max's dexterity: 12.
+4. Treant's dexterity: 5.
+
+In this fight each player's character has more dexterity than the Treant. Thus, the player's characters turns are grouped into a single turn, the player's turn, which will be first:
+1. Player's Turn.
+2. Treant's Turn.
 
 ### 1st Turn (Player's Turn):
 
@@ -1013,113 +1281,225 @@ A gun used by advanced scientists, it shoots darts that can be filled with chemi
 
 ### The player has won the fight!
 
-## 8.2. VS A group of 4 Elevines
+## 8.2. Fight against a group of four Elevines
 
-### 1st Turn (Player's Turn):
+According to the characters' dexterity, the turns will be dispatched in the following order:
+ 1. Me's dexterity: 17.
+ 2. Elevines: 16.
+ 3. Clara's dexterity: 14.
+ 4. Max's dexterity: 12.
 
-- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
+### 1st Turn (Me's turn):
+
 - Me (<u>Daggers</u>): $((E[2d4]+2)*1.2)*P(12-5 on 1d20) = 9.6 * 0.7 = 6.72​$
-- Max (<u>Explosive Dart</u>, damage to each enemy): $(E[1d4]+3)*(1-P(16-3 on 1d20)) = 5.5 * 0.6 = 3.3$
 - *Electric* Damage on Me (she used a <u>conductive weapon</u>): $E[1d4] = 2.5​$
 - Me's <u>Regeneration</u>, she recovers 2 HP.
 
-**Expected group damage:** 16.42 to the target Elevine, 3.3 to each other Elevine.
+**Elevine 1's HP (Target):** 3.3.
 
-**Elevine 1's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
+**Elevines 2, 3, 4 HP:** 10.
 
-**Elevines 2, 3, 4 HP:** 6.7.
+**Me's HP:** 29.5.
 
-**Me's HP:** 26.
+**Clara's HP:** 20.
 
-**Clara's HP:** 16.5.
-
-**Max' HP:** 21.5.
+**Max' HP:** 25.
 
 ### 2nd Turn (Elevines' Turn):
 
-- Elevine 2 attacking Clara: $(E[3d4]-2)*P(10-8 on 1d20) = 5.5 * 0.95 = 5.225$
-- Elevine 3 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
-- Elevine 4 attacking Max: $(E[3d4]-2)*P(10-6 on 1d20) = 5.5 * 0.85 = 4.675$
+- Elevine 1 attacking Me: $(E[2d4]-2)*P(10-5 on 1d20) = 3 * 0.8 = 2.4​$
+- Elevine 2 attacking Clara: $(E[2d4]-2)*P(10-8 on 1d20) = 3 * 0.95 = 2.85$
+- Elevine 3 attacking Me: $(E[2d4]-2)*P(10-5 on 1d20) = 3 * 0.8 = 2.4​$
+- Elevine 4 attacking Max: $(E[2d4]-2)*P(10-6 on 1d20) = 3 * 0.85 = 2.55$
 
-**Me's HP:** 21.6.
+**Me's HP:** 24.7.
 
-**Clara's HP:** 11.275.
+**Clara's HP:** 17.15.
 
-**Max' HP:** 16.825.
+**Max' HP:** 22.45.
 
-### 3st Turn (Player's Turn):
+### 3st Turn (Clara's turn):
 
-- Clara (<u>Basic attack</u>): $(E[1d6]+2)*P(12-5 on 1d20) = 5.5 * 0.7 = 3.85$
-- Me (<u>Wooden Club</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
-- Max (<u>Dart</u>): $(E[1d6]+1)*P(12-5 on 1d20) = 4.5 * 0.7 = 3.15$
+- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
+
+**Elevine 1's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d4] = 2.5$
+
+**Elevines 2, 3, 4 HP:** 10.
+
+**Me's HP:** 22,2.
+
+**Clara's HP:** 14,655.
+
+**Max' HP:** 19.95.
+
+### 4th Turn (Max' Turn):
+
+- Max (<u>Explosive Dart</u>, damage to each enemy): $(E[1d4]+3)*(1-P(16-3 on 1d20)) = 5.5 * 0.6 = 3.3$
+
+**Elevines 2, 3, 4 HP:** 6.7.
+
+### 5th Turn (Me's Turn):
+
+- Me (<u>Strong Branch</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
 - Me's <u>Regeneration</u>, she recovers 2 HP.
 
-**Expected group damage:** 11.55 to the target Elevine.
-
-**Elevine 2's HP (Target): **0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
+**Elevine 2's HP (Target):** 2.15.
 
 **Elevines 3, 4 HP:** 6.7.
 
-**Me's HP:** 20.01.
+**Me's HP:** 24.2.
 
-**Clara's HP:** 7.775.
+**Clara's HP:** 14,655.
 
-**Max' HP:** 13.325.
+**Max' HP:** 19.95.
 
-### 4th Turn (Elevines' Turn):
+### 6th Turn (Elevines' Turn):
 
-- Elevine 3 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
-- Elevine 4 attacking Max : $(E[3d4]-2)*P(10-6 on 1d20) = 5.5 * 0.85 = 4.675$
+- Elevine 2 attacking Clara: $(E[2d4]-2)*P(10-8 on 1d20) = 3 * 0.95 = 2.85$
+- Elevine 3 attacking Me: $(E[2d4]-2)*P(10-5 on 1d20) = 3 * 0.8 = 2.4​$
+- Elevine 4 attacking Max: $(E[2d4]-2)*P(10-6 on 1d20) = 3 * 0.85 = 2.55$
 
-**Me's HP:** 15.61.
+**Me's HP:** 21.8.
 
-**Clara's HP:** 7.775.
+**Clara's HP:** 11.805.
 
-**Max' HP:** 8.65.
+**Max' HP:** 17.4.
 
-### 5th Turn (Player's Turn):
-
-- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
-- Me (<u>Provoke</u> on Elevine 4).
-- Max (<u>Explosive Dart</u>, damage to each enemy): $(E[1d4]+3)*(1-P(16-3 on 1d20)) = 5.5 * 0.6 = 3.3$
-- Me's <u>Regeneration</u>, she recovers 2 HP.
-
-**Expected group damage:** 9.7 to the target Elevine, 3.3 to each other Elevine.
-
-**Elevine 3's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d6] = 3.5$
-
-**Elevine 4's HP:** 3.4.
-
-**Me's HP:** 14.11.
-
-**Clara's HP:** 4.275.
-
-**Max' HP:** 5.15.
-
-### 6th Turn (Elevine's Turn):
-
-- Elevine 4 attacking Me: $(E[3d4]-2)*P(10-5 on 1d20) = 5.5 * 0.8 = 4.4​$
-
-**Me's HP:** 9.71.
-
-**Clara's HP:** 4.275.
-
-**Max' HP: **5.15.
-
-### 7th Turn (Player's Turn):
+### 7th Turn (Clara's turn):
 
 - Clara (<u>Basic attack</u>): $(E[1d6]+2)*P(12-5 on 1d20) = 5.5 * 0.7 = 3.85$
-- Me (<u>Wooden Club</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
-- Max' <u>Fytoprolipser</u> on Elevine 4, <u>Electric Discharge</u> disabled.
+
+**Elevine 2's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d4] = 2.5$
+
+**Elevines 3, 4 HP:** 6.7.
+
+**Me's HP:** 19.3.
+
+**Clara's HP:** 9.305.
+
+**Max' HP:** 10.65.
+
+### 8th Turn (Max' Turn):
+
+- Max (<u>Dart</u>): $(E[1d6]+1)*P(12-5 on 1d20) = 4.5 * 0.7 = 3.15$
+
+**Elevine 3's HP (Target):** 3.55.
+
+**Elevine 4's HP:** 6.7.
+
+### 9th Turn (Me's Turn):
+
+- Me (<u>Strong Branch</u>): $((E[1d8]+2))*P(12-5 on 1d20) = 6.5 * 0.7 = 4.55​$
 - Me's <u>Regeneration</u>, she recovers 2 HP.
 
-**Expected group damage:** 8.4 to the target Elevine.
+**Elevine 3's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d4] = 2.5$
 
-**Elevine 4's HP (Target):** 0.
+**Elevine 4's HP:** 6.7.
+
+**Me's HP:** 18.8.
+
+**Clara's HP:** 6,805.
+
+**Max' HP:** 8.15.
+
+### 10th Turn (Elevines' Turn):
+
+- Elevine 4 attacking Clara: $(E[2d4]-2)*P(10-8 on 1d20) = 3 * 0.95 = 2.85$
+
+**Me's HP:** 18.8.
+
+**Clara's HP:** 3,955.
+
+**Max' HP:** 8.15.
+
+### 11th Turn (Clara's turn):
+
+- Clara (<u>Frost Stream</u>): $(E[2d4]+3)*(1-P(15+2 on 1d20)) = 8 * 0.8 = 6.4$
+
+**Elevine 4's HP (Target):** 0, <u>Electric Discharge</u> (to each character): $E[1d4] = 2.5$
+
+**Me's HP:** 16.3.
+
+**Clara's HP:** 1.455.
+
+**Max' HP:** 5.65.
 
 ### The Player has won the fight!
 
 <div style="page-break-after: always;"></div>
+
+# 9. Audio references
+
+## 9.1. Main Characters
+
+### 9.1.1. Clara Oswald
+
+**Voice:** Clara's voice can result both gentle and aggressive, depending on her current mood.
+**Upon dying:** Given her courage, upon dying Clara will emit a light cry.
+
+### 9.1.2. Me (Ashildr)
+
+**Voice:** Through Me's voice it's possible to notice her audacity and self-confidence, and also her being a Viking girl.
+**While regenerating:** When reaching 0 HP, Me will enter the regeneration mode emitting an exhausted scream.
+
+### 9.1.3. Max
+
+**Voice:** Max' voice represents his determination and his willpower. Being a scientist he often uses scientific terms. While speaking, Max makes lots of pauses, giving the idea he is always distracted.
+**Upon dying:** Wounded to death, upon dying Max will scream suffering.
+
+### 9.1.4. The Primordial
+
+**While alive:** The Primordial's voice represents his wisdom. His voice is similar to that of ancient one. Speaking from inside the core, his voice echoes multiple times, but is still clearly understandable.
+
+## 9.2. Enemies
+
+### 9.2.1. Liannoyer
+
+**Attacking:** During his attacks, the Liannoyer uses his thorned lianes as whips, producing lashes' sound effects.
+
+**Upon dying:** Hit to death, the Liannoyer's lianes will slowly hit the ground, producing the sound effects of cut branches hitting the ground.
+
+### 9.2.2. Needler
+
+**Attacking:** Throwing his needles to attack, the Needler produces a similar sound to the one produced by a crossbow shooting arrows.
+
+**Upon dying:** Hit to death, the Needler will crush into the ground, emitting a similar sound to that of someone stepping on a bush.
+
+### 9.2.3. Treant
+
+**Attacking:** Moving his body to attack and trying to stomp the player's characters, the Treant produces sounds similar to those of a moving giant. Its movements are slow, but each time its arts hit the ground trying to stomp a character, they emit a loud noise, similar to that of a tree's trunk violently hitting the ground.
+
+**Upon dying:** Hit to death, the Treant will slowly hit the ground, emitting the sound of a cut tree hitting the ground.
+
+### 9.2.4. Elevine
+
+**Attacking:** Swinging his electrical vines during the attacks, the Elevine produces the sound of an electric whisk used to hit a character.
+
+**Upon dying:** Hit to death, the Elevine will discharge his body producing the sound effect of an electric shock. Once discharged (or if inhibited by the *Fytoprolipser*) it will silently hit the ground like a plant sagging into the ground.
+
+### 9.2.5. Thunder Blossom
+
+**Attacking:** Thunder Blossom's attacks produces electrical lashes' sound effects. While producing a Pollen Cloud, it emits a sound similar to that of a pipe leaking gas.
+
+**Pollen Cloud:** Generating lightnings randomly hitting the surroundings, a Pollen Cloud emits the sound effects of electric shocks. Once wiped out, it vanish emitting a soft gas leak sound effect.
+
+**Upon dying:** Hit to death, the Thunder Blossom emits an electric explosion and then softly and slowly hit the ground.
+
+### 9.2.6. Fire Flower
+
+**Attacking:** Throwing scorching embers, the Fire Flower emits a sound effect similar to that of an incendiary arrow throwed by a bow. Upon hitting, the scorching embers produce burning sound effects.
+
+**Upon dying:** If defeated by a *slashing* damage, the Fire Flower produces a soft explosion, spawning two others Fire Flowers. Otherwise, its fire effects extinguishes and it hits the ground like a dry branch.
+
+### 9.2.7. Spore Sprayer
+
+**Attacking:** A Spore Sprayer continously emits spores, producing a soft leaking gas sound effect.
+
+**Upon dying:** When defeated, the Spore Sprayer produces a last loud leaking gas effect and then softly sags into the ground like a dead flower.
+
+### 9.2.8. Overseers
+
+If a character steps on an Overseer, it produces the same sound effect of someone stepping on a group of roots.
 
 # A. Artwork & references
 
