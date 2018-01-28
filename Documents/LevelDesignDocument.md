@@ -2,13 +2,11 @@
 
 
 
-
-
 # *Space Beyond Space - A Doctor Who Story*
 
+#Level: _Disclosure_
+
 # Level Design Document
-
-
 
 
 
@@ -19,17 +17,17 @@
 | Purpose       | Unique final document including all main project resources and files. |
 | Creation date | 24/12/2017                               |
 | Current owner | Giorgio Liggio                           |
-| Last edited   | 09/01/2018                               |
+| Last edited   | 28/01/2018                               |
 
 
 
 **Rigmarole Team**
 
-| Team Member     | Email                                 |
-| --------------- | ------------------------------------- |
-| Giorgio Liggio  | giorgiomaria.liggio@studenti.unimi.it |
-| Alessio Quercia | alessio.quercia@studenti.unimi.it     |
-| Andrea Salamone | andrea.salamone1@studenti.unimi.it    |
+| Name            | ID number | Email                                 |
+| --------------- | :-------: | ------------------------------------- |
+| Giorgio Liggio  |  905471   | giorgiomaria.liggio@studenti.unimi.it |
+| Alessio Quercia |  918925   | alessio.quercia@studenti.unimi.it     |
+| Andrea Salamone |  909907   | andrea.salamone1@studenti.unimi.it    |
 
 
 
@@ -37,8 +35,9 @@
 
 
 
-
-<sub><sub>This document (including any attachments) may contain confidential, proprietary, privileged and/or private information. The information is intended to be</sub></sub><br/><sub><sup>for the use of the individuals or entity designated above. Any disclosure, reproduction, distribution or other use of this document or any attachment by an</sub></sup><br/><sup><sup>individual or entity other than the intended recipients is prohibited.</sup></sup>
+<sub><sub>This document (including any attachments) may contain confidential, proprietary, privileged and/or private information. The information is intended to be</sub></sub>  
+<sub><sup>for the use of the individuals or entity designated above. Any disclosure, reproduction, distribution or other use of this document or any attachment by an</sub></sup>  
+<sup><sup>individual or entity other than the intended recipients is prohibited.</sup></sup>
 
 <div style="page-break-after: always;"></div>
 
@@ -67,6 +66,7 @@
 | Andrea Salamone | 20/01/2018 | Added fight outcomes.                    |  0.8.9  |
 | Alessio Quercia | 22/01/2018 | Added characters' in-game sizes. |  0.8.10  |
 | Andrea Salamone | 22/01/2018 | Added level progression, flowcharts and event diagrams. |  0.8.11  |
+| Giorgio Liggio  | 28/01/2018 | Branch merging #3.                       |  0.9.5  |
 
 <div style="page-break-after: always;"></div>
 
@@ -547,7 +547,7 @@ The side quest can proceed in two ways:
 
 Walking towards the stairs, the player will reach the basement section.
 
-###3.5.4. Section Flowchart
+### 3.5.4. Section Flowchart
 
 ![LDD_Section1Flowchart](img/LDD_Section1Flowchart.png)
 
@@ -726,13 +726,59 @@ A **fight** against the Thunder Blossom starts.
 
 If the player manages to defeat the enemy, a **scripted sequence** starts, involving Max that creates a new type of <u>Chemical Dart Gun</u>'s ammo type: the <u>Shock Dart</u>. **Side-quest End**.
 
-Upon reaching the excavation site, a big hole on the ground is found, leading to a bright tunnel. When the player walks inside, a **cutscene** starts:
+**[cinematic]**
 
-Clara, Me and Max walk through the tunnel, they find a giant, bright thing similar to a Seed, a loud noise of roots moving is heard and a shape resembling some kind of face forms from a nearby stone.
+Upon reaching the caves exit, the trio enters a tunnel leading to a brilliant white light source. They reach the very place where life on the planet had origin: the scientists call it the Nexus. Here lies an enormous plant-like creature, taking up most of the cave's space, grasped to the walls with a lot of branches.
 
-**The Plant Face says:** "What are you going to do this time?", hesitate, "You are not like the other one... I don't feel wicked intent on you.".
+The team walks in slowly, they take a look around before focusing on the giant plant. As they stop after a while, roots from the ground twist around each other, resembling a human-like shape; the face is the last part to be formed, and starts talking after a while with a calm deep voice, slowly but firmly:
 
-**Clara says:** "What people usually do something to you and why?"
+**Primordial:** You are stubborn, evil. Dare to come here whenever you want, again...
+
+**Clara:** What? Wh... What are you talking about?
+
+**P:** Mmm... You are not him, are you? No. But your friend, here, he looks like him.
+
+**Max:** I am wh...?
+
+**C (interrupts):** Who? Who is 'him'?
+
+**P:** If you are not him, then, who are you, mortals?
+
+**C:** My name is Clara, and they are Me and Max. They are friends.
+
+**Me:** What... Ehm, _who_ are you, plant?
+
+**P:** I'm a living being, just like you are.
+
+**Me (to herself):** You don't say.
+
+**P (keeping talking):** I grow, I nourish, I live. I am what I am. Though, if it's a name you want, you can call me as he does: Primordial.
+
+**Max (trying to contain excitement):** This is unbelievable...! He talks! He can talk! I've never seen things like this before!
+
+**Me:** How did you get there? Why are you here so deep in the ground? What are you doing on this planet?
+
+**P:** I did not get there, I had always been there. I am not in the ground, the ground is around me. I have no purpose on this planet. I _am_ the planet.
+
+**Max:** Yes, he's right. It's been millennia since he settled here, growing slowly and pushing his roots and branches all around him. In fact, he is the core around whom the planet itself grew from the beginning.
+
+**P:** However, you mortal creatures do not care about other living beings. [reluctantly] Humans... Cutting me and taking samples for the sake of feeling stronger than the others. And he is the meanest, attempting to create life from other life.
+
+**Me:** I guess this thing is talking about...
+
+**C:** ... Dr. Yok, exactly. He must know way more than anybody else, we must...
+
+**Max:** No, it can't be. Yok spent his whole career working for the Project, this all makes no sense! It can't make sense...
+
+**C:** Don't be silly, Max! Think about it, Yok wants to exploit this specimen for unknown reason, and took advantage of the Project to keep his real plans a secret. This means he's running secret experiments on Primordial, and Heaven knows what he means to do!
+
+**Me (slightly sarcastic):** Well, it's not that hard to connect the dots actually, Max.
+
+**C:** We must find him as soon as possible.
+
+**P:** You can find your evil friend in his place. He is always in there, contemplating his children...
+
+**C:** We must find the entrance to Yok's laboratories before it's too late. He can't get away with this!
 
 ### 3.8.4. Section Flowchart
 
@@ -752,12 +798,9 @@ In this section are described the puzzles included in the 6th level, *Disclosure
 
 **Problem**
 
-
-
 **Solution**
 
-
-## 4.2 Overcharge the generators
+## 4.2. Overcharge the generators
 
 **Problem**
 A giant electric plant is wrapping around the floor main electric generator, absorbing all the energy and letting the floor in the dark. 
@@ -770,7 +813,7 @@ The only way to beat it is overloading the plant by turning on the supplementary
 2. All smaller generators overload the main generator (*GEN*), the plant cannot absorb this amount of energy and blows up 3 seconds after the player gets back to the main generator room [red arrow].
 3. A black-out follows, turn on the main generator [blue arrow] and continue the game by opening previous locked electric doors.
 
-## 4.3 Unlock the door
+## 4.3. Unlock the door
 
 **Problem**
 The door leading to the Cave is blocked by some roots, which cannot be destroyed using weapons.
@@ -1171,6 +1214,196 @@ The player will start the level with three medikits in their inventory.
 <div style="page-break-after: always;"></div>
 
 # 6. Assets
+
+## 6.1. Characters' in-game sizes
+
+In game units (*u*) should respect the following proportion: *1 u = 10 cm*.
+Consequently:
+ - *1 cm = 0.1 u*
+ - *1 m = 10 u*.
+
+### 6.1.1. Main characters
+
+Every human character will need the following minimum volume (Width x Depth x Height) to correctly move in the game's level: *(1 m) x (1 m) x (2 m)*.
+
+
+#### 6.1.1.1. Clara Oswald
+
+**Model info:**
+ - Height: 1.58 m.
+ - Body: Slim.
+
+**Hitbox:**
+ - Height: 1.6 m.
+ - Width: 0.6 m.
+ - Depth: 0.5 m.
+
+#### 6.1.1.2. Me (Ashildr)
+
+**Model info:**
+ - Height: 1.55 m.
+ - Body: Slim.
+
+**Hitbox:**
+ - Height: 1.6 m.
+ - Width: 0.55 m.
+ - Depth: 0.44 m.
+
+#### 6.1.1.3. Max
+
+**Model info:**
+ - Height: 1.77 m.
+ - Body: Regular.
+
+**Hitbox:**
+ - Height: 1.8 m.
+ - Width: 0.7 m.
+ - Depth: 0.55 m.
+
+#### 6.1.1.4. The Primordial
+
+**Model info:**
+ - Height: 30 m.
+ - Width: 30 m.
+ - Depth: 30 m.
+
+### 6.1.2. Enemies
+
+#### 6.1.2.1. Liannoyer
+
+**Minimum volume**
+ - Height: 1.1 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.65 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.7 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 6.1.2.2. Needler
+
+**Minimum volume**
+ - Height: 1.3 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.85 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.9 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 6.1.2.3. Treant
+
+**Minimum volume**
+ - Height: 2.5 m.
+ - Width: 2.1 m.
+ - Depth: 2.3 m.
+
+**Model info:**
+ - Height: 3 m.
+ - Width: 2.6 m.
+ - Depth: 2.8 m.
+
+**Hitbox:**
+ - Height: 2.55 m.
+ - Width: 2.15 m.
+ - Depth: 2.35 m.
+
+#### 6.1.2.4. Fire Flower
+
+**Minimum volume**
+ - Height: 1.2 m.
+ - Width: 1 m.
+ - Depth: 1 m.
+
+**Model info:**
+ - Height: 0.7 m.
+ - Width: 0.55 m.
+ - Depth: 0.55 m.
+
+**Hitbox:**
+ - Height: 0.75 m.
+ - Width: 0.6 m.
+ - Depth: 0.6 m.
+
+#### 6.1.2.5. Spore Sprayer
+
+**Minimum volume**
+ - Height: 2.2 m.
+ - Width: 1.2 m.
+ - Depth: 1.2 m.
+
+**Model info:**
+ - Height: 1.7 m.
+ - Width: 0.75 m.
+ - Depth: 0.75 m.
+
+**Hitbox:**
+ - Height: 1.75 m.
+ - Width: 0.8 m.
+ - Depth: 0.8 m.
+
+#### 6.1.2.6. Elevine
+
+**Minimum volume**
+ - Height: 0.9 m.
+ - Width: 0.9 m.
+ - Depth: 1.2 m.
+
+**Model info:**
+ - Height: 0.45 m.
+ - Width: 0.45 m.
+ - Depth: 0.75 m.
+
+**Hitbox:**
+ - Height: 0.5 m.
+ - Width: 0.5 m.
+ - Depth: 0.8 m.
+
+#### 6.1.2.7. Thunder Blossom
+
+**Minimum volume**
+ - Height: 2.5 m.
+ - Width: 2.9 m.
+ - Depth: 2.9 m.
+
+**Model info:**
+ - Height: 2 m.
+ - Width: 2.4 m.
+ - Depth: 2.4 m.
+
+**Hitbox:**
+ - Height: 2.05 m.
+ - Width: 2.45 m.
+ - Depth: 2.45 m.
+
+#### 6.1.2.8. Overseer
+
+**Minimum volume**
+ - Height: 0.3 m.
+ - Width: 0.8 m.
+ - Depth: 0.8 m.
+
+**Model info:**
+ - Height: 0.15 m.
+ - Width: 0.65 m.
+ - Depth: 0.65 m.
+
+**Hitbox:**
+ - Height: 0.2 m.
+ - Width: 0.7 m.
+ - Depth: 0.7 m.
 
 <div style="page-break-after: always;"></div>
 
