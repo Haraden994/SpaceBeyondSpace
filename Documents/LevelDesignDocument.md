@@ -594,19 +594,10 @@ A **dialogue** starts:
 **Sub-Quest:** *A miracle serum*.
 The door for the lab zone is opened by Max that then moves to the Hydroponic Lab waiting as a NPC.
 
-The player can command Clara to walk inside the contaminated zone to take the items needed and bring them to Max.
+**Puzzle:** *Help Max preparing the serum* (section 4.1).
 
-Items needed:
-- <u>Almost ready serum</u>: found inside Max's cabinet in the lab zone.
-- <u>Key to Max' cabinet</u>: found inside the lab zone.
-- <u>Molecular extractor</u>: found inside a locked room in the lab zone, <u>Hacking</u> required to unlock the door.
-
-After giving the items to Max, a **cutscene** starts: the group goes to the Hydroponic lab and Max gets some plant creature parts, uses the molecular extractor and pour the result to the compound that finally becomes the so-called *Fytoprolipser*. Max then says that they have to find a first test subject.
-**Sub-quest end.**
-
-When the player reaches the strange wall blocking the way for the elevator, Max says that he needs to try the *Fytoprolipser* on it, after doing so, the wall changes its form becoming a bulky plant creature called *Treant* by Max himself. The fight against this creature begins.
-
-Defeated the *Treant* the player can proceed to the next section.
+The player has to defeat the Treant and to proceed to the next section.
+**Sub-Quest end.**
 
 ### 3.6.4. Section Flowchart
 
@@ -657,23 +648,27 @@ A **dialogue** starts:
 3. **Max to the girls:** "The Electric bulbs that we studied had a limited energy storing capacity, according to its dimensions, I think that the creature's bulb is almost at his maximum capacity. If we give it a lot of energy in one time, I think it'll surely explode."
 4. **Clara to the others:** "Let's do this!"
 
-The player has to find the five auxiliary generators in five different rooms, two rooms have their doors closed without energy, *Elevines* can be found in the section and, by defeating them and using the *Fytoprolipser*, <u>Electric Bulbs</u> can be extracted from them. The other three room's doors are opened, two couple of *Elevines* are present in two rooms and the other one is empty.
+**Puzzle:** *Overcharge the generator* (section 4.2).
 
-With an <u>Electric Bulb</u> ready, the player can overcharge a door's control panel and enter the room, activating the secondary generator by interacting with the console related.
-
-After activating each secondary generator, the player can return to the main generator's room to check if the plan worked. Upon entering the room a **scripted sequence** starts, involving the *Thunder Blossom* that, overcharged by too much energy, explodes. Clara thanks Max for the informations given and, after reactivating the generator, the lights turn on with the joy of the group.
+Once re-activated the main generator, the player can proceed to the room X.
 **Sub-quest end.**
 
-The area can now be freely explored, the door at the end of the floor's main hallway can now be opened, the player cannot open the door leading to the cave, some access codes are needed.
+The area can now be freely explored, the door at the end of the floor's main hallway can now be opened.
 
-After entering the Room X, the player can look for evidences about the earthquake or something that could lead to Professor Yok. Upon <u>hacking</u> the main terminal of the room, access codes for the cave's door are found also with some information not in line with the main research plan and a **dialogue** starts:
+**Sub-quest:** *Reach the caves*
+The door leading to the *Caves* is blocked by some strong roots, which cannot be destroyed using weapons.
+
+**Puzzle:** *Unlock the caves' door* (section 4.3).
+
+After entering the Room X, the player can look for evidences about the earthquake or something that could lead to Professor Yok. Upon <u>hacking</u> the main terminal of the room, information not in line with the main research plan are found and a **dialogue** starts:
 1. **Max, reading from the monitor:** "Plant DNA hybridation?! This is not what we're working for, at least according to what I know... A lot of information lead to the underground cave where the Seed is."
 2. **Clara:** "There are also advices for missing workmen, but the recipient is not the same as this account, they're like... Redirected. "
 3. **Me:** "Linking the two things together, we might have someone who's experimenting with plant hybridation."
 4. **Max:** "But someone would have noticed the missing people."
 5. **Me:** "An earthquake occurred, do you remember? Maybe someone was searching for them, but it doesn't count anymore."
 
-The group now proceeds towards the underground cave.
+The group can now proceed to the underground cave.
+**Sub-quest end.**
 
 ### 3.7.4. Section Flowchart
 
@@ -794,37 +789,55 @@ The team walks in slowly, they take a look around before focusing on the giant p
 
 In this section are described the puzzles included in the 6th level, *Disclosure*.
 
-## 4.1 Help Max preparing the serum
+## 4.1. Help Max preparing the serum
 
 **Problem**
+A huge *mass of wood and leaves* is blocking the way to the underground laboratories.
 
 **Solution**
+The only way to overcome the obstacle is to help max completing his serum.
+The player has to:
 
-## 4.2. Overcharge the generators
+1. Use Clara to move inside the contaminated zone and to to find:
+	 - The *key to Max's cabinet* inside the lab zone.
+	 - The *almost ready serum* inside Max's cabinet.
+	 - The *molecular extractor* inside a locked room (*Hacking* required to unlock the door).
+2. Give th the items to Max, which will finish preparing the serum (Max becomes a playable character from now on).
+3. Use Max's new serum (*Fytoprolipser*) on the *mass of wood and leaves*, which will transform itself into a Treant.
+
+## 4.2. Overcharge the generator
 
 **Problem**
-A giant electric plant is wrapping around the floor main electric generator, absorbing all the energy and letting the floor in the dark. 
-The player can approach the plant and fight, but it won't get hurt, and the player eventually gets damaged.
+A giant electric plant (*Thunder Blossom*) is wrapping around the floor main electric generator, absorbing all the energy and letting the floor in the dark.
+The player can't fight the plant, which will attack him if he gets too close.
 
 **Solution**
-The only way to beat it is overloading the plant by turning on the supplementary independent generators located in the other rooms, so that the plant can't deal with this amount of energy and blowing up. Then, the only thing to do is turning the generator on once again:
+The only way to defeat it is by overcharging the plant turning on the supplementary independent generators located in the other rooms, so that the plant will blow up because of the eccessive amount of energy.
+Defeated the *Thunder Blossom*, the player has to turn the main generator on once again.
+The player has to:
 
-1. Find and turn on all smaller generators (*gen*) [yellow arrows].
-2. All smaller generators overload the main generator (*GEN*), the plant cannot absorb this amount of energy and blows up 3 seconds after the player gets back to the main generator room [red arrow].
-3. A black-out follows, turn on the main generator [blue arrow] and continue the game by opening previous locked electric doors.
+1. Find and turn on all the five smaller generators to overload the main generator. The smaller generators are located in five different rooms (two of them have the door closed due to absence of energy).
+	- Defeat two *Elevines* after having applied on them the *Fytoprolipser* to extract the *Electric Bulbs* from them.
+	- Use the *Electric Bulbs* to overcharge the two closed doors' control panel and enter the rooms.
+2. Reach the *Thunder Blossom* and wait until it blows up.
+3. Re-activate the main generator, which will open every electric door on the floor, including the door leading to the cave.
 
-## 4.3. Unlock the door
+## 4.3. Unlock the caves' door
 
 **Problem**
-The door leading to the Cave is blocked by some roots, which cannot be destroyed using weapons.
+The door leading to the Caves is blocked by some roots, which cannot be destroyed using weapons.
 
 **Solution**
+The only way to overcome the obstacle is to raise the door's mechanism pressure enough to destroy the roots.
+
 The player has to find a way to unlock the door to reach the Cave:
 
-1. Try to open the door, but it won't open, because it's blocked.
-2. Find the hydraulic system.
-3. Overcharge the hydraulic system using the valves. The water pressure increases, allowing the door to receive much more energy.
-4. Open the door. The water pressure is so high that the door will quickly open, destroying the roots blocking it.
+1. Hack the computer in the room X to get access to the codes to unlock the door's terminal.
+2. Use the door's terminal (near the door) to raise the door's mechanism pressure enough to open the door:
+	- Stop the line indicating the pressure (black line) when there is enough pressure to open the door (green bar). If there is not enough pressure, the door won't open and the player can retry from the round where he failed. If there is too much pressure, the door mechanism will enter a security state, forcing the player to restart raising the pressure from round 1.
+	- Complete the three rounds presented to violently open the door, destroying the roots blocking it.
+
+![LDD_PuzzleCaveDoor](img/puzzle/LDD_PuzzleCaveDoor.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -852,6 +865,8 @@ The game camera is a free camera, meaning that the player might freely move it i
 The player can also choose to lock the camera on the character he is currently using, meaning that the camera will follow that specific character from above, mantaining the possibility to zoom in and out and to rotate. Locking the camera on a character, the player won't be able to move it in any direction.
 
 ## 5.5. Game mechanics
+
+The player will be able to freely move his party in the walkable areas. If a player attacks an enemy or is attacked by it, then the party will enter the *fight mode*. In this mode, the player will be forced to play according to the *D&D* rules. Once engaged in a fight, the characters will attack or move according to their turn, given by their dexterity.
 
 The player will be able to control the main characters in two different modes: *party mode* and *single character mode*. He will be able to switch from a mode to another during the game.
 Using the *party mode* (standard mode), the player will control the main characters as a party. Thus they will move together to the player's chosen positions and make the player's chosen actions.
@@ -1226,184 +1241,32 @@ Consequently:
 
 Every human character will need the following minimum volume (Width x Depth x Height) to correctly move in the game's level: *(1 m) x (1 m) x (2 m)*.
 
+| Character | Height | Body    | Hitbox (Width x Depth x Height) |
+| :-------: | :----: | :-----: | :-----------------------------: |
+| Clara     | 1.58 m | Slim    | (0.6 m) x (0.5 m) x (1.6 m)     |
+| Me        | 1.55 m | Slim    | (0.55 m) x (0.45 m) x (1.6 m)   |
+| Max       | 1.77 m | Regular | (0.7 m) x (0.55 m) x (1.8 m)    |
 
-#### 6.1.1.1. Clara Oswald
 
-**Model info:**
- - Height: 1.58 m.
- - Body: Slim.
+### 6.1.2. The Primordial
 
-**Hitbox:**
- - Height: 1.6 m.
- - Width: 0.6 m.
- - Depth: 0.5 m.
+| Character      | Width | Depth | Height |
+| :------------: | :---: | :---: | :----: |
+| The Primordial | 30 m  | 30 m  | 30 m   |
 
-#### 6.1.1.2. Me (Ashildr)
+### 6.1.3. Enemies
 
-**Model info:**
- - Height: 1.55 m.
- - Body: Slim.
+| Enemy           | Min. Volume (W x D x H)     | Model Info (W x D x H)         | Hitbox (W x D x H) |
+| :-------------: | :-------------------------: | :----------------------------: | :------------------------:       |
+| Liannoyer       | (1 m) x (1 m) x (1.1 m)     | (0.55 m) x (0.55 m) x (0.65 m) | (0.6 m) x (0.6 m) x (0.7 m)    |
+| Needler         | (1 m) x (1 m) x (1.3 m)     | (0.55 m) x (0.55 m) x (0.85 m) | (0.6 m) x (0.6 m) x (0.9 m) |
+| Treant          | (2.1 m) x (2.3 m) x (2.5 m) | (2.6 m) x (2.8 m) x (3 m)      | (2.15 m) x (2.35 m) x (2.55 m) |
+| Fire Flower     | (1 m) x (1 m) x (1.2 m)     | (0.55 m) x (0.55 m) x (0.7 m)  | (0.6 m) x (0.6 m) x (0.75 m)   |
+| Spore Sprayer   | (1.2 m) x (1.2 m) x (2.2 m) | (0.75 m) x (0.75 m) x (1.7 m)  | (0.8 m) x (0.8 m) x (1.75 m)   |
+| Elevine         | (0.9 m) x (1.2 m) x (0.9 m) | (0.45 m) x (0.75 m) x (0.45 m) | (0.5 m) x (0.8 m) x (0.5 m)    |
+| Thunder Blossom | (2.9 m) x (2.9 m) x (2.5 m) | (2.4 m) x (2.4 m) x (2 m)      | (2.45 m) x (2.45 m) x (2.05 m) |
+| Overseer        | (0.8 m) x (0.8 m) x (0.3 m) | (0.65 m) x (0.65 m) x (0.15 m) | (0.7 m) x (0.7 m) x (0.2 m)    |
 
-**Hitbox:**
- - Height: 1.6 m.
- - Width: 0.55 m.
- - Depth: 0.44 m.
-
-#### 6.1.1.3. Max
-
-**Model info:**
- - Height: 1.77 m.
- - Body: Regular.
-
-**Hitbox:**
- - Height: 1.8 m.
- - Width: 0.7 m.
- - Depth: 0.55 m.
-
-#### 6.1.1.4. The Primordial
-
-**Model info:**
- - Height: 30 m.
- - Width: 30 m.
- - Depth: 30 m.
-
-### 6.1.2. Enemies
-
-#### 6.1.2.1. Liannoyer
-
-**Minimum volume**
- - Height: 1.1 m.
- - Width: 1 m.
- - Depth: 1 m.
-
-**Model info:**
- - Height: 0.65 m.
- - Width: 0.55 m.
- - Depth: 0.55 m.
-
-**Hitbox:**
- - Height: 0.7 m.
- - Width: 0.6 m.
- - Depth: 0.6 m.
-
-#### 6.1.2.2. Needler
-
-**Minimum volume**
- - Height: 1.3 m.
- - Width: 1 m.
- - Depth: 1 m.
-
-**Model info:**
- - Height: 0.85 m.
- - Width: 0.55 m.
- - Depth: 0.55 m.
-
-**Hitbox:**
- - Height: 0.9 m.
- - Width: 0.6 m.
- - Depth: 0.6 m.
-
-#### 6.1.2.3. Treant
-
-**Minimum volume**
- - Height: 2.5 m.
- - Width: 2.1 m.
- - Depth: 2.3 m.
-
-**Model info:**
- - Height: 3 m.
- - Width: 2.6 m.
- - Depth: 2.8 m.
-
-**Hitbox:**
- - Height: 2.55 m.
- - Width: 2.15 m.
- - Depth: 2.35 m.
-
-#### 6.1.2.4. Fire Flower
-
-**Minimum volume**
- - Height: 1.2 m.
- - Width: 1 m.
- - Depth: 1 m.
-
-**Model info:**
- - Height: 0.7 m.
- - Width: 0.55 m.
- - Depth: 0.55 m.
-
-**Hitbox:**
- - Height: 0.75 m.
- - Width: 0.6 m.
- - Depth: 0.6 m.
-
-#### 6.1.2.5. Spore Sprayer
-
-**Minimum volume**
- - Height: 2.2 m.
- - Width: 1.2 m.
- - Depth: 1.2 m.
-
-**Model info:**
- - Height: 1.7 m.
- - Width: 0.75 m.
- - Depth: 0.75 m.
-
-**Hitbox:**
- - Height: 1.75 m.
- - Width: 0.8 m.
- - Depth: 0.8 m.
-
-#### 6.1.2.6. Elevine
-
-**Minimum volume**
- - Height: 0.9 m.
- - Width: 0.9 m.
- - Depth: 1.2 m.
-
-**Model info:**
- - Height: 0.45 m.
- - Width: 0.45 m.
- - Depth: 0.75 m.
-
-**Hitbox:**
- - Height: 0.5 m.
- - Width: 0.5 m.
- - Depth: 0.8 m.
-
-#### 6.1.2.7. Thunder Blossom
-
-**Minimum volume**
- - Height: 2.5 m.
- - Width: 2.9 m.
- - Depth: 2.9 m.
-
-**Model info:**
- - Height: 2 m.
- - Width: 2.4 m.
- - Depth: 2.4 m.
-
-**Hitbox:**
- - Height: 2.05 m.
- - Width: 2.45 m.
- - Depth: 2.45 m.
-
-#### 6.1.2.8. Overseer
-
-**Minimum volume**
- - Height: 0.3 m.
- - Width: 0.8 m.
- - Depth: 0.8 m.
-
-**Model info:**
- - Height: 0.15 m.
- - Width: 0.65 m.
- - Depth: 0.65 m.
-
-**Hitbox:**
- - Height: 0.2 m.
- - Width: 0.7 m.
- - Depth: 0.7 m.
 
 <div style="page-break-after: always;"></div>
 
@@ -1650,4 +1513,62 @@ If a character steps on an Overseer, it produces the same sound effect of someon
 
 # A. Artwork & references
 
-To be completed.
+## A.1. Laboratories
+
+![LDD_RefLab1](img/ref/LDD_RefLab1.jpg)
+
+![LDD_RefLab2](img/ref/LDD_RefLab2.jpg)
+
+![LDD_RefLab3](img/ref/LDD_RefLab3.jpg)
+
+![LDD_RefLab4](img/ref/LDD_RefLab4.jpg)
+
+![LDD_RefLab5](img/ref/LDD_RefLab5.jpg)
+
+![LDD_RefLab6](img/ref/LDD_RefLab6.jpg)
+
+![LDD_RefLab7](img/ref/LDD_RefLab7.jpg)
+
+
+## A.2. Caves
+
+![LDD_RefCave1](img/ref/LDD_RefCave1.jpg)
+
+![LDD_RefCave2](img/ref/LDD_RefCave2.jpg)
+
+![LDD_RefCave3](img/ref/LDD_RefCave3.jpg)
+
+![LDD_RefCave4](img/ref/LDD_RefCave4.jpg)
+
+![LDD_RefCave5](img/ref/LDD_RefCave5.jpg)
+
+![LDD_RefCave6](img/ref/LDD_RefCave6.jpg)
+
+![LDD_RefCave7](img/ref/LDD_RefCave7.jpg)
+
+![LDD_RefCave8](img/ref/LDD_RefCave8.jpg)
+
+![LDD_RefCave9](img/ref/LDD_RefCave9.jpg)
+
+
+# B. Ghost references
+
+## B.1. Story Characters
+
+![LDD_GhostClara](img/ghost/LDD_GhostClara.PNG)
+
+![LDD_GhostMe](img/ghost/LDD_GhostMe.PNG)
+
+![LDD_GhostMax](img/ghost/LDD_GhostMax.PNG)
+
+![LDD_GhostPrimordial](img/ghost/LDD_GhostPrimordial.PNG)
+
+![LDD_GhostYok](img/ghost/LDD_GhostYok.PNG)
+
+## B.2. Game Story
+
+![LDD_GhostPreEvents&Setup](img/ghost/LDD_GhostPreEvents&Setup.PNG)
+
+![LDD_GhostConfrontation](img/ghost/LDD_GhostConfrontation.PNG)
+
+![LDD_GhostResolution](img/ghost/LDD_GhostResolution.PNG)
