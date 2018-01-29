@@ -64,8 +64,8 @@
 | Alessio Quercia | 16/01/2018 | Added rewards, checkpoints, victory/defeat conditions, game camera description, game mechanics and characters' audio references. Remade fight outcomes, skills and enemies charts. |  0.8.7  |
 | Andrea Salamone | 17/01/2018 | Added Interpersonal Circumplexes, rewrote the level story and fixed the FSAs. |  0.8.8  |
 | Andrea Salamone | 20/01/2018 | Added fight outcomes.                    |  0.8.9  |
-| Alessio Quercia | 22/01/2018 | Added characters' in-game sizes. |  0.8.10  |
-| Andrea Salamone | 22/01/2018 | Added level progression, flowcharts and event diagrams. |  0.8.11  |
+| Alessio Quercia | 22/01/2018 | Added characters' in-game sizes.         | 0.8.10  |
+| Andrea Salamone | 22/01/2018 | Added level progression, flowcharts and event diagrams. | 0.8.11  |
 | Giorgio Liggio  | 28/01/2018 | Branch merging #3.                       |  0.9.5  |
 
 <div style="page-break-after: always;"></div>
@@ -250,7 +250,7 @@ Clara knows she must return to Gallifrey since her death was a fixed point in ti
 
 ### 2.4.1. Human settlement backstory
 
-A group of scientists found a planet with an Earth-like atmosphere and decided to settle a camp on it. They also built two laboratories, not too far from the camp, to conduct their studies on the plants. The scientists were studying the planet to understand if it could be a possible human colony. After conducting some research on the planet, the scientists discovered something interesting within the plants: they seemed to have the same DNA.
+A group of scientists found a planet with an Earth-like atmosphere and decided to settle a camp on it. They also built two laboratories, not too far from the camp, to conduct their studies on the plants. The scientists were studying the planet to understand if it could be a possible human colony of the Aurora Project, the first human colonization plan. After conducting some research on the planet, the scientists discovered something interesting within the plants: they seemed to have the same DNA.
 
 ### 2.4.2. Exoplanet backstory
 
@@ -423,6 +423,8 @@ Clara and Me's primary goal through the game is to save The Primordial, an ancie
 - Obtaining the *Daggers*.
 - Obtaining a new party member, Max.
 - Obtaining the *Fytoprolipser*.
+- Obtaining two *Mining suits*.
+- Obtaining the *Pulse Hammer*.
 
 ### 2.9.7. Level 7 - *Deception*
 
@@ -469,16 +471,16 @@ The underground cave is strangely full of vegetation with the upper side covered
 The following table shows which enemies the player will encounter in the different game's levels.
 
 | Enemy / Level   | Advent | Daybreak | Portent | Contingency | Backlash | Disclosure | Deception | Uplift |
-| --------------- | -------| -------- | ------- | :---------: | :------: | :--------: | :-------: | :----: |
-| Liannoyers      |        |          |         |      X      |    X     |      X     |           |        |
-| Needlers        |        |          |         |      X      |    X     |      X     |           |        |
-| Treant          |        |          |         |             |          |      X     |           |        |
-| Fire Flower     |        |          |         |             |    X     |      X     |           |        |
-| Spore Sprayer   |        |          |         |             |    X     |      X     |           |        |
-| Elevines        |        |          |         |             |          |      X     |           |        |
-| Thunder Blossom |        |          |         |             |          |      X     |           |        |
-| Overseer        |        |          |         |             |          |      X     |           |        |
-| Mutants         |        |          |         |             |          |            |     X     |     X  |
+| --------------- | ------ | -------- | ------- | :---------: | :------: | :--------: | :-------: | :----: |
+| Liannoyers      |        |          |         |      X      |    X     |     X      |           |        |
+| Needlers        |        |          |         |      X      |    X     |     X      |           |        |
+| Treant          |        |          |         |             |          |     X      |           |        |
+| Fire Flower     |        |          |         |             |    X     |     X      |           |        |
+| Spore Sprayer   |        |          |         |             |    X     |     X      |           |        |
+| Elevines        |        |          |         |             |          |     X      |           |        |
+| Thunder Blossom |        |          |         |             |          |     X      |           |        |
+| Overseer        |        |          |         |             |          |     X      |           |        |
+| Mutants         |        |          |         |             |          |            |     X     |   X    |
 
 
 
@@ -487,17 +489,17 @@ The following table shows which skills the player will have to use in the differ
 
 | Skill / Level              | Advent | Daybreak | Portent | Contingency | Backlash | Disclosure | Deception | Uplift |
 | -------------------------- | ------ | -------- | ------- | :---------: | :------: | :--------: | :-------: | :----: |
-| Moving                     |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
-| Attacking                  |    X   |          |         |     X       |     X    |      X     |     X     |     X  |
-| Interacting                |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
-| Open doors                 |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
-| Pick up items              |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
-| Use weapons                |        |          |         |     X       |     X    |      X     |     X     |     X  |
-| Picklocking                |        |          |         |     X       |     X    |            |           |        |
-| Hacking                    |        |          |         |     X       |     X    |      X     |     X     |        |
-| Highlight useful items     |    X   |     X    |   X     |     X       |     X    |      X     |     X     |     X  |
-| Highlight scientific items |        |          |         |             |          |      X     |     X     |     X  |
-| Use Fytoprolipser          |        |          |         |             |          |      X     |     X     |     X  |
+| Moving                     | X      | X        | X       |      X      |    X     |     X      |     X     |   X    |
+| Attacking                  | X      |          |         |      X      |    X     |     X      |     X     |   X    |
+| Interacting                | X      | X        | X       |      X      |    X     |     X      |     X     |   X    |
+| Open doors                 | X      | X        | X       |      X      |    X     |     X      |     X     |   X    |
+| Pick up items              | X      | X        | X       |      X      |    X     |     X      |     X     |   X    |
+| Use weapons                |        |          |         |      X      |    X     |     X      |     X     |   X    |
+| Picklocking                |        |          |         |      X      |    X     |            |           |        |
+| Hacking                    |        |          |         |      X      |    X     |     X      |     X     |        |
+| Highlight useful items     | X      | X        | X       |      X      |    X     |     X      |     X     |   X    |
+| Highlight scientific items |        |          |         |             |          |     X      |     X     |   X    |
+| Use Fytoprolipser          |        |          |         |             |          |     X      |     X     |   X    |
 
 
 
@@ -530,7 +532,7 @@ After the cutscene, the two girls look at the main hall of the section and a **d
 1. **Clara to Me:** "I wonder what we will find in there."
 2. **Me to Clara:** "Whatever we will find here, use your sword-thing as before, I think we won't meet beautiful flowers!"
 
-The player can explore the areas: videos can be watched in the auditorium, explaining some of the settlement's main goals; security cam records can be observed in the security room by interacting with the console, no clues of Yok fleeing away can be found.
+The player can explore the areas: videos can be watched in the auditorium, explaining some of the Aurora Project purposes (see **chapter 2.4.1** for further information); security cam records can be observed in the security room by interacting with the console, no clues of Yok fleeing away can be found.
 
 **Side-quest:** *The beloved in the garden*
 The side quest can proceed in two ways:
@@ -549,18 +551,18 @@ Walking towards the stairs, the player will reach the basement section.
 
 ### 3.5.4. Section Flowchart
 
-![LDD_Section1Flowchart](img/LDD_Section1Flowchart.png)
+![LDD_Section1Flowchart](img/LDD_Flowchart1.png)
 
 ### 3.5.5. Section Event Diagram
 
-![LDD_Section1EventDiagram](img/LDD_Section1EventDiagram.png)
+![LDD_Section1EventDiagram](img/LDD_EventDiagram1.png)
 
 ## 3.6. Section description: *Laboratories, basement*
 
 ### 3.6.1. Overview
 ![basement1](tmp/basement1.jpg)
 
-The basement section of the second laboratory complex is a cold area, where rooms are filled with holographic consoles, scientific devices, plants as test subjects inside incubators and everything any scientist needs for his studies. An hydroponic lab is also present and, in front of the entrance stairs, part of the wall is broken, with dirt and roots pouring to the ground. Some walls are also damaged and pierced by giant roots.
+The basement section of the second laboratory complex is a cold area, where rooms are filled with holographic consoles, scientific devices, plants as test subjects inside incubators and everything any scientist needs for his studies. An hydroponic lab is also present, with some broken incubation glass cylinders inside, and, in front of the entrance stairs, part of the wall is broken, with dirt and roots pouring to the ground. Some walls are also damaged and pierced by giant roots.
 
 The player controls Clara and Me and has to find informations about the earthquake and Professor Yok. The scientist Max is met in the section, after freeing him and completing his sub-quest, he will join the group.
 
@@ -577,7 +579,11 @@ A new enemy is found, other than *Liannoyers* and *Needlers* seen in the previou
 ### 3.6.3. Section description
 
 Upon entering the section the player can explore the section with some limitations: the corridor leading to the lift is blocked by a strange wall made of wood and leafs and neither Clara nor Me has access to the laboratories section.
-The only accessible ways are the one leading to the hydroponic lab and a near room. Two *Liannoyers* are found whipping a reinforced glass door with a scientist behind.
+The only accessible ways are the one leading to the hydroponic lab and a near room.
+
+In the Hydroponic Lab, the player can found an ***intel*** about some plant growth inner workings. An analysis was made about some big roots present in the planet, peculiar molecules, called Dimiourgics (from greek's *dimiourgía* meaning "creation"), had incredible effects on every plant of the planet. The document mentions the plants present in the Hydroponic Lab's incubation glass cylinders, but, unfortunately, they are broken and no plant lies inside.
+
+Two *Liannoyers* are found whipping a reinforced glass door with a scientist behind.
 The player fights the two enemies, freeing the scientist whose name is Max. He locked himself in that room, hunted by those creatures, dropping out the distillation of a peculiar serum.
 
 A **dialogue** starts:
@@ -601,11 +607,11 @@ The player has to defeat the Treant and to proceed to the next section.
 
 ### 3.6.4. Section Flowchart
 
-![LDD_Section2Flowchart](img/LDD_Section2Flowchart.png)
+![LDD_Section2Flowchart](img/LDD_Flowchart2.png)
 
 ###3.6.5. Section Event Diagram
 
-![LDD_Section2EventDiagram](img/LDD_Section2EventDiagram.png)
+![LDD_Section2EventDiagram](img/LDD_EventDiagram2.png)
 
 ## 3.7. Section description: *Laboratories, underground*
 
@@ -672,11 +678,11 @@ The group can now proceed to the underground cave.
 
 ### 3.7.4. Section Flowchart
 
-![LDD_Section3Flowchart](img/LDD_Section3Flowchart.png)
+![LDD_Section3Flowchart](img/LDD_Flowchart3.png)
 
 ### 3.7.5. Section Event Diagram
 
-![LDD_Section3EventDiagram](img/LDD_Section3EventDiagram.png)
+![LDD_Section3EventDiagram](img/LDD_EventDiagram3.png)
 
 ## 3.8. Section description: *Underground cave*
 
@@ -708,6 +714,8 @@ Upon entering the cave, a **dialogue** starts:
 The player has to find the excavation site. Some paths are filled with *Overseers*, if the player walks on them, they will spawn *Fire Flowers*.
 
 <u>Mining Suit</u> and <u>Pulse Hammer</u> can be found in this section.
+
+The ***intel*** found in this section is a tablet belonging to someone from the excavation team. Upon reading it, the player will discover the excavation plan scheduling. The Seed was programmed to be reached for the next week, meaning that someone broke the plan and started the excavation earlier than the established date.
 
 **Side-quest:** *Another Blossom...*
 
@@ -777,11 +785,11 @@ The team walks in slowly, they take a look around before focusing on the giant p
 
 ### 3.8.4. Section Flowchart
 
-![LDD_Section4Flowchart](img/LDD_Section4Flowchart.png)
+![LDD_Section4Flowchart](img/LDD_Flowchart4.png)
 
 ###3.8.5. Section Event Diagram
 
-![LDD_Section4EventDiagram](img/LDD_Section4EventDiagram.png)
+![LDD_Section4EventDiagram](img/LDD_EventDiagram4.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -839,6 +847,14 @@ The player has to find a way to unlock the door to reach the Cave:
 
 ![LDD_PuzzleCaveDoor](img/puzzle/LDD_PuzzleCaveDoor.png)
 
+## 4.4. Move rubble
+
+**Problem**
+There is rubble on the elevation, behind which the Pulse Hammer lies.
+
+**Solution**
+The rubble can be attacked, after three it they will fall down from the edge, blocking the way below. The Pulse Hammer can be looted, but now the player has to find another way to proceed.
+
 <div style="page-break-after: always;"></div>
 
 # 5. Gameplay considerations
@@ -851,7 +867,7 @@ Immersive story and gameplay will implicitly reward the player throughout the ga
 ## 5.2. Checkpoints
 
 The game will auto-save after completing a quest. Thus, losing during a quest means restarting from the ending of the previous quest.
-The player can restart anytime from the last checkpoint or load a previous one.
+The player can restart anytime from the last save point or load a previous one.
 The player will be also able to save the game anytime he wants, except during a fight.
 
 ## 5.3. Victory conditions
@@ -861,10 +877,14 @@ The player will win the game by completing the main quests in the game levels wi
 
 ## 5.4. Game camera
 
-The game camera is a free camera, meaning that the player might freely move it in any direction, zoom in and out, and completely rotate it.
+The game camera is a free rotating camera, meaning that the player might freely move it in any direction, zoom in and out, and completely rotate it.
 The player can also choose to lock the camera on the character he is currently using, meaning that the camera will follow that specific character from above, mantaining the possibility to zoom in and out and to rotate. Locking the camera on a character, the player won't be able to move it in any direction.
 
-## 5.5. Game mechanics
+## 5.5. Head-Up Display (HUD)
+
+![LDD_HUD](img/LDD_HUD.png)
+
+## 5.6. Game mechanics
 
 The player will be able to freely move his party in the walkable areas. If a player attacks an enemy or is attacked by it, then the party will enter the *fight mode*. In this mode, the player will be forced to play according to the *D&D* rules. Once engaged in a fight, the characters will attack or move according to their turn, given by their dexterity.
 
@@ -872,11 +892,11 @@ The player will be able to control the main characters in two different modes: *
 Using the *party mode* (standard mode), the player will control the main characters as a party. Thus they will move together to the player's chosen positions and make the player's chosen actions.
 The player will also be able to select a character and to use the *single character mode*, controlling that character individually.
 
-## 5.6. Characters' gameplay informations
+## 5.7. Characters' gameplay informations
 
 This section presents the ability scores of each character in the level, among with their combat stats and skills.
 
-### 5.6.1. Clara
+### 5.7.1. Clara
 
 | Ability        | Score | Modifier |
 | :------------- | :---- | :------- |
@@ -903,7 +923,7 @@ This section presents the ability scores of each character in the level, among w
 - *Hacking*: Clara had no computer skills at first, she became a computer genius after being uploaded into the Wi-Fi by a Spoonhead, so she can hack certain door's control panels and terminals.
 - *Who needs to breathe?!*: After being saved from her death by the Doctor, Clara became functionally immortal. She lost all physical qualities such as breathing, a pulse and even ageing, being stuck "between one heartbeat and the next".
 
-### 5.6.2. Me (Ashildr)
+### 5.7.2. Me (Ashildr)
 
 | Ability        | Score | Modifier |
 | :------------- | :---- | :------- |
@@ -929,7 +949,7 @@ This section presents the ability scores of each character in the level, among w
 - *Picklocking*: Me has been a thief during a period of her life. She learned how to picklock keyholes.
 - *Health regeneration*: Me is a human-Mire hybrid, she was resurrected by the Doctor altering a Mire repair kit to fix human physiology knowing that she would continually be fixed, thus losing the "ability" to die. She has continous health regeneration (1d4 each turn), upon reaching 0 HP, Me will enter an inactivity phase for two turns, where she will regenerate to full health. When out of combat she regenerates 1d4 HP every 1.5 seconds.
 
-### 5.6.3. Max
+### 5.7.3. Max
 
 | Ability        | Score | Modifier |
 | -------------- | ----- | -------- |
@@ -955,13 +975,13 @@ This section presents the ability scores of each character in the level, among w
 - *Advanced scientific rank*:  Laboratories' areas are hierachically divided. Max has access to specific areas in the laboratories.
 - *Fytoprolipser*: For the whole time in the research facility, Max planned to create a serum that could inhibit plant's properties. After its preparation, he test the serum on the first creature that he encounters, with Clara and Me ready to fight at his side. The Fytoprolipser has a peculiar effect on each plant creature on which is used. It has 1 turn *cooldown*. More details are provided in each of the enemy description in the dedicated section **Enemies' gameplay informations (5.2)**.
 
-## 5.7. Enemies' gameplay information
+## 5.8. Enemies' gameplay information
 
 This section presents a brief description of the enemies that the player will face trough the level, among with their ability scores, combat stats and skills.
 
 The *Charisma* ability is not relevant for the enemies since they are creatures moved by pure istinct and do not interact in any other way with the player besides of fighting.
 
-### 5.7.1. Liannoyer
+### 5.8.1. Liannoyer
 
 ![Liannoyer](img/LDD_Liannoyer.jpg)
 
@@ -985,7 +1005,7 @@ Lianannoyers deal *melee* 1d4 damage influenced by *Strength* modifier.
 | *DEX Saving Throw value*       | 17        |
 | *CON Saving Throw value*       | 16        |
 
-### 5.7.2. Needler
+### 5.8.2. Needler
 
 ![Needler](img/LDD_Needler.jpg)
 
@@ -1009,7 +1029,7 @@ Needlers deal *ranged* 1d6 damage influenced by *Dexterity* modifier.
 | *DEX Saving Throw value*       | 16        |
 | *CON Saving Throw value*       | 15        |
 
-### 5.7.3. Treant
+### 5.8.3. Treant
 
 ![Treant](img/LDD_Treant.jpg)
 
@@ -1033,7 +1053,7 @@ Treants deal *melee* 4d4 damage influenced by *Strength* modifier, with a 15% (a
 | *DEX Saving Throw value*       | 15        |
 | *CON Saving Throw value*       | 16        |
 
-### 5.7.4. Elevine
+### 5.8.4. Elevine
 
 ![LDD_Liannoyer](img/LDD_Elevine.jpg)
 
@@ -1061,7 +1081,7 @@ Elevines deal *melee* 2d4 damage influenced by *Constitution* modifier.
 | *DEX Saving Throw value*       | 15        |
 | *CON Saving Throw value*       | 15        |
 
-### 5.7.5. Thunder Blossom
+### 5.8.5. Thunder Blossom
 
 ![LDD_Liannoyer](img/LDD_ThunderBlossom.jpg)
 
@@ -1091,7 +1111,7 @@ Thunder Blossoms deal 3d4 damage influenced by *Strength* modifier.
 
 **Electric Generator variant**: A Thunder Blossom is found in the second underground section of the laboratory, grasping the floor's generator, shutting off every technological system in the zone. This variation of the creature cannot be fought. The only way to defeat it is by overcharging the main electrical generator by activating all of the auxiliary ones found in other rooms, this will involve him exploding due to it's incapability to contain so much energy. This variant of the creature spawns an *Elevine* that will reach the player every time another *Elevine* is defeated in the section (see **chapter 3.7** for further information).
 
-### 5.7.6. Fire Flower
+### 5.8.6. Fire Flower
 
 ![LDD_Liannoyer](img/LDD_FireFlower.jpg)
 
@@ -1115,88 +1135,87 @@ Fire Flowers deal 1d4 damage influenced by *Dexterity* modifier, if the attack h
 | *DEX Saving Throw value*       | 17        |
 | *CON Saving Throw value*       | 17        |
 
-### 5.7.7. Spore Sprayer
+### 5.8.7. Spore Sprayer
 
 ![LDD_Liannoyer](img/LDD_SporeSprayer.jpg)
 
 Spore Sprayers are plant creatures that cannot be fought due to their poisonous spores released in the area, killing every living being that breathes the spores. Clara doesn't need to breathe, so she can freely move inside the contaminated area.
 
-### 5.7.8. Overseers
+### 5.8.8. Overseers
 
 ![LDD_Liannoyer](img/LDD_Overseer.jpg)
 
 The Overseers are non fighting plant creatures looking like roots out of the ground, found in the cave (**chapter 3.8**). The player must pay attention to their similarity with normal roots, when they are touched, they spawn many plant creatures to defend the cave. If the player manages to defeat each of the plant spawned by an Overseer it turns into normal roots.
 
-### 5.7.9. Strong Vines
+### 5.8.9. Strong Vines
 
 Strong vines found blocking the entrance of the garden in the first section of the level (**chapter 3.5**). They constantly grow at high speed if cutted and they are so thik that are unpassable. The only way to wipe them out is by freezing them with Clara's <u>Frost Stream</u> and then using a basic attack, the ice will prevent their fast grow.
 
-## 5.8 Weapons
+## 5.9 Weapons
 
-### 5.8.1. Dual element gun
+### 5.9.1. Dual element gun
 
 ![LDD_DualElementGun](img/LDD_DualElementGun.jpg)
 
 It's a broken part of a robotic arm made by the scientific team which Me made usable and gave to Clara in the previous level. This robotic arm carrying this item was remotely controlled by scientists to test the temperature resistance of particular plant species using localized streams of fire or ice thanks to its thin long-limbed shape. Clara uses it as a rapier that can also shoot fire or frost with a moderate waiting time between switching to an element or another.
 
-**Basic attack damage:** 1d6, *piercing* damage type influenced by *Dexterity* modifier.
+| **Skill Name**      | Damage Output | Damage Type | Damage Modifier | Enemy Saving Throw                | Cooldown                                |
+| ------------------- | ------------- | ----------- | --------------- | --------------------------------- | --------------------------------------- |
+| <u>Basic Attack</u> | 1d6           | Piercing    | Dexterity       | None                              | None                                    |
+| <u>Fire Stream</u>  | 2d4           | Fire        | Intelligence    | Dexterity roll to avoid damage    | 1 turn, shared with <u>Frost Stream</u> |
+| <u>Frost Stream</u> | 2d4           | Frost       | Intelligence    | Constitution roll to halve damage | 1 turn, shared with <u>Fire Stream</u>  |
 
-**Skills related:**
+### 5.9.2. Daggers
 
-- <u>Fire stream</u>: 
-  - 2d4, *fire* damage type influenced by *Intelligence* modifier.
-  - *Dexterity* roll needed for *Saving Throw*, totally avoiding the damage.
-  - 1 turn *cooldown* shared with <u>Frost Stream</u>.
-- <u>Frost stream</u>: 
-  - 2d4, *frost* damage type influenced by *Intelligence* modifier.
-  - *Constitution* roll needed for *Saving Throw*, halving the damage taken.
-  - 1 turn *cooldown* shared with <u>Fire Stream</u>.
+![LDD_Dagger](img/LDD_Dagger.png)
 
-### 5.8.2. Daggers
+Daggers used by scientists to cut particularly tough plants, they are given to Me by the scientist after completing *The beloved in the garden* Side-quest (see **chapter 3.5** for further information). They are *conductive*.
 
-Daggers used by scientists to cut particularly tough plants, they are given to Me by the scientist after completing *The beloved in the garden* Side-quest (see **chapter 3.5** for further information). They deal *slashing* damage type influenced by *Dexterity* modifier. They are *conductive*. **Damage:** 2d4.
+| **Skill Name**      | Damage Output | Damage Type | Damage Modifier | Enemy Saving Throw | Cooldown |
+| ------------------- | ------------- | ----------- | --------------- | ------------------ | -------- |
+| <u>Basic Attack</u> | 2d4           | Slashing    | Dexterity       | None               | None     |
 
-### 5.8.3. Strong Branch
+### 5.9.3. Strong Branch
 
-A branch found by Me in the previous level, it belonged to some kind of a very sturdy tree with enough manageability to be used as a weapon, it deals *bludgeoning* damage type influenced by *Strength* modifier. Not *conductive*. **Damage:** 1d10.
+A branch found by Me in the previous level, it belonged to some kind of a very sturdy tree with enough manageability to be used as a weapon, not *conductive*. 
 
-### 5.8.4. Pulse Hammer
+| **Skill Name**      | Damage Output | Damage Type | Damage Modifier | Enemy Saving Throw | Cooldown |
+| ------------------- | ------------- | ----------- | --------------- | ------------------ | -------- |
+| <u>Basic Attack</u> | 1d10          | Bludgeoning | Strength        | None               | None     |
+
+### 5.9.4. Pulse Hammer
 
 ![LDD_PulseHammer](img/LDD_PulseHammer.png)
 
-A technological hammer with a working impulse engine used by the cave excavation team. The impulse emitter grants to the user a great manageability, so this hammer feels very light and can be used by someone with low physical strength, easing a miner's work. It is found after removing a block of rubble in the underground cave section of the level (see **chapter 3.8** for further information).
+A technological hammer with a working impulse engine used by the cave excavation team. The impulse emitter grants to the user a great manageability, so this hammer feels very light and can be used by someone with low physical strength, easing a miner's work. It is found after removing a block of rubble in the underground cave section of the level (see **chapter 3.8** for further information). It is *conductive*.
 
-The Pulse Hammer deals *bludgeoning* damage type influenced by *Dexterity* modifier and it is *conductive*.
-**Damage:** 3d4.
+| **Skill Name**      | Damage Output | Damage Type | Damage Modifier | Enemy Saving Throw | Cooldown |
+| ------------------- | ------------- | ----------- | --------------- | ------------------ | -------- |
+| <u>Basic Attack</u> | 3d4           | Bludgeoning | Dexterity       | None               | None     |
 
-### 5.8.5. Chemical Dart Gun
+### 5.9.5. Chemical Dart Gun
 
 ![LDD_ChemicalDartGun](img/LDD_ChemicalDartGun.jpg)
 
 A gun used by advanced scientists, it shoots darts that can be filled with chemical compounds, this is the weapon used by Max through the level.
 
-**Skills related:**
+| **Skill Name**               | Damage Output | Damage Type                | Damage Modifier          | Enemy Saving Throw                | Special Effect            | Cooldown |
+| ---------------------------- | ------------- | -------------------------- | ------------------------ | --------------------------------- | ------------------------- | -------- |
+| <u>Cheap Dart</u>            | 1d6           | Piercing                   | Dexterity                | None                              | None                      | None     |
+| <u>Explosive Dart</u>        | 1d4           | Fire area of damage effect | Intelligence             | Dexterity roll to avoid damage    | None                      | 1 turn   |
+| <u>Poisonous Dart</u>        | 1d4           | Piercing                   | Dexterity                | None                              | Damage over time (1 turn) | 1 turn   |
+| <u>Poisonous Dart</u>'s DoT° | 1d6           | None                       | Intelligence             | Constitution roll to halve damage | None                      | None     |
+| <u>Shock Dart</u>°°°         | 1d4 + 1d4     | Piercing + Electric        | Dexterity + Intelligence | None                              | Paralysis°° on hit        | 2 turns  |
 
-- <u>Cheap Dart (Basic attack):</u> 1d6, no damage type influenced by *Dexterity* modifier.
-- <u>Explosive Dart:</u>
-  - 1d4, *area of damage* effect, *fire* damage type influenced by *Intelligence* modifier.
-  - *Dexterity* roll needed for *Saving Throw*, totally avoiding damage.
-  - 1 turn *cooldown*.
-- <u>Poisonous Dart:</u>
-  - 1d4, no damage type influenced by *Dexterity* modifier, dealt in the turn it is used.
-  - 1d6, no damage type influenced by *Intelligence* modifier, dealt in the next enemy turn.
-  - *Constitution* roll for *Saving Throw* in the enemy turn, halving the damage taken.
-  - 1 turn *cooldown*.
-- <u>Shock Dart</u>:
-  - acquired after defeating the *Thunder Blossom* in the cave (see **chapter 3.8** for further information).
-  - 1d4, no damage type influenced by *Dexterity* modifier, plus 1d4 no damage type influenced by *Intelligence* modifier.
-  - If the skill hits, *Paralysis* is inflicted to the target.
-  - *Paralysis*: if the paralyzed target doesn't roll at least 6 on 1d10 each turn, for 2 turns, it will skip its turn. After the vanishing of paralysis effect, the target will become immune to it for 2 turns.
-  - 2 turns *cooldown*.
+**NOTES:** 
 
-## 5.9. Armors
+- °<u>Poisonous Dart</u>'s damage over time is dealt in the next enemy turn and only if the skill used by Max hits the target.
+- °°Paralysis: if the paralyzed target doesn't roll at least 6 on 1d10 each turn, for 2 turns, it will skip its turn. After the paralysis effect vanishing, the target will become immune to it for 2 turns.
+- °°°Shock Dart</u> skill acquired by defeating the *Thunder Blossom* as a Side-quest in the cave section (see **chapter 3.8** for further information).
 
-### 5.9.1. Lab coat
+## 5.10. Armors
+
+### 5.10.1. Lab coat
 
 ![LDD_LabCoat](img/LDD_LabCoat.jpg)
 
@@ -1206,7 +1225,15 @@ Clara and Me will receive a lab coat when joining the research team.
 
 Max wears a lab coat when found.
 
-### 5.9.2. Mining suit
+### 5.10.2. Chemical Suit
+
+![LDD_ChemicalSuit](img/LDD_ChemicalSuit.jpg)
+
+A common resistant chemical suit found inside the basement section of the level (see **chapter 3.6** for further information). It is a bit impairing but can give a good protection against *non physical* damage.
+
+**Non-physical damage reduction:** 1.
+
+### 5.10.3. Mining suit
 
 ![LDD_MiningSuitReference](img/LDD_MiningSuitReference.png)
 
@@ -1216,9 +1243,9 @@ Two mining suits are found in the underground cave (see **chapter 3.8** for furt
 
 **Armor Class (AC):** 5.
 
-## 5.10. Consumables
+## 5.11. Consumables
 
-### 5.10.1. Medikit
+### 5.11.1. Medikit
 
 ![LDD_Medikit](img/LDD_Medikit.jpg)
 
