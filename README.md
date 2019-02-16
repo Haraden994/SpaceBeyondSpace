@@ -1,4 +1,5 @@
-## Game and Level Design Project - Università degli Studi di Milano - Magistrale di Informatica
+# Space Beyond Space - A Doctor Who Story 
+### Game and Level Design - Università degli Studi di Milano
 **Group name:** *Rigmarole*  
 **Group members:** Giorgio Liggio, Alessio Quercia, Andrea Salamone  
 **Team leader:** Giorgio Liggio  
@@ -24,18 +25,18 @@ The following entries are planned milestones for the project development.
 - [x] Level description (first release)
 
 ### Milestone 4 - 09/01/2018
-- [ ] Detailed level diagram (final release)
-- [ ] Detailed level description (final release)
-- [ ] Diagrams: flowchart, event, navigation
-- [ ] Concept art/reference images
-- [ ] Characters profiles (description, images, traits, stats, ...)
-- [ ] Skill chart
-- [ ] Reward system analysis (level goal outline)
-- [ ] Ambient mood (level, areas, potential color palette)
-- [ ] Puzzles files (description, solution(s), requirements)
-- [ ] Size comparison chart (for main characters/objects only, plus references)
-- [ ] NPCs AI automata
-- [ ] Enemy fights stat analysis
-- [ ] Sound and music descriptions
-- [ ] Playable prototype level
-- [ ] Gameplay considerations
+- [x] Detailed level diagram (final release)
+- [x] Detailed level description (final release)
+- [x] Diagrams: flowchart, event, navigation
+- [x] Concept art/reference images
+- [x] Characters profiles (description, images, traits, stats, ...)
+- [x] Skill chart
+- [x] Reward system analysis (level goal outline)
+- [x] Ambient mood (level, areas, potential color palette)
+- [x] Puzzles files (description, solution(s), requirements)
+- [x] Size comparison chart (for main characters/objects only, plus references)
+- [x] NPCs AI automata
+- [x] Enemy fights stat analysis
+- [x] Sound and music descriptions
+- [x] Playable prototype level
+- [x] Gameplay considerations
